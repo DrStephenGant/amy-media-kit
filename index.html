@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amy Puzey — Podcast Guest Media Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Brand font is Runda Normal. Nunito is used as the closest free web fallback.
+     With a Runda webfont license, add an @font-face for Runda and set --font below. -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300..900;1,400..700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* Goodphyte brand palette */
+    --smoke:#f7f5f3;       /* White Smoke – page bg */
+    --surf:#dadfd0;        /* Surf Crest – sage alt bg */
+    --surf-dk:#c4cbb3;
+    --dianne:#22565c;      /* Blue Dianne – anchor */
+    --dianne-dk:#1a4248;
+    --orange:#f36f21;      /* Burning Orange – accent/CTA */
+    --orange-soft:#f8915a;
+    --summer:#a5b4b1;      /* Summer Green – muted on dark */
+    --tea:#fac2bc;         /* Tea Rose */
+    --coffee:#746741;      /* Roman Coffee */
+    --ink:#21302f;
+    --line:rgba(33,48,47,0.14);
+    --shadow:0 18px 50px -20px rgba(26,66,72,0.4);
+    --font:'Nunito',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font);background:var(--smoke);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+  h1,h2,h3{font-family:var(--font);line-height:1.05;font-weight:800;letter-spacing:-.01em}
+  a{color:inherit}
+  .kicker{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;font-weight:800;color:var(--orange)}
+
+  /* four-dot brand motif */
+  .dots{display:inline-flex;gap:5px;align-items:center}
+  .dots i{width:7px;height:7px;border-radius:50%;display:block}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 86% -10%,rgba(243,111,33,0.22),transparent 52%),linear-gradient(165deg,var(--dianne),var(--dianne-dk));color:var(--smoke);padding:34px 0 0;overflow:hidden}
+  .hero::after{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,0.05) 1px,transparent 1px);background-size:24px 24px;opacity:.5}
+  .nav{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+  .brandmark{font-weight:900;font-size:1.05rem;letter-spacing:.01em;display:flex;align-items:center;gap:10px}
+  .brandmark .dots i{background:var(--orange)}
+  .navlinks{display:flex;gap:26px;font-size:.84rem;font-weight:700}
+  .navlinks a{opacity:.78;text-decoration:none;transition:opacity .2s}
+  .navlinks a:hover{opacity:1}
+  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:end;padding:54px 0 0;position:relative;z-index:2}
+  .hero-copy .kicker{color:var(--orange-soft)}
+  .hero h1{font-size:clamp(3.2rem,8.5vw,6.2rem);margin:16px 0 0;font-weight:900;letter-spacing:-.03em}
+  .pron{font-size:1rem;color:var(--summer);font-weight:600;margin-top:10px;letter-spacing:.02em}
+  .pron b{color:var(--smoke)}
+  .role{font-size:1.02rem;color:var(--summer);margin-top:14px;font-weight:700}
+  .tagline{font-size:1.55rem;line-height:1.35;color:var(--smoke);margin-top:22px;max-width:24ch;font-weight:300}
+  .tagline b{font-weight:800;color:var(--orange-soft)}
+  .cta-row{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:13px 28px;border-radius:40px;font-size:.88rem;font-weight:800;letter-spacing:.02em;text-decoration:none;transition:transform .2s,box-shadow .2s}
+  .btn-primary{background:var(--orange);color:#fff}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px -10px rgba(243,111,33,.7)}
+  .btn-ghost{border:1.5px solid rgba(247,245,243,.4);color:var(--smoke)}
+  .btn-ghost:hover{background:rgba(247,245,243,.1)}
+  .hero-portrait{position:relative;aspect-ratio:4/5;border-radius:18px 18px 0 0;overflow:hidden;background:linear-gradient(150deg,var(--summer),var(--dianne-dk));box-shadow:var(--shadow);align-self:end}
+  .hero-portrait img{width:100%;height:100%;object-fit:cover;display:block}
+  .cap{position:absolute;left:0;right:0;bottom:0;padding:14px 18px;background:linear-gradient(transparent,rgba(26,66,72,.85));font-size:.78rem;letter-spacing:.04em;color:var(--smoke);font-weight:600;font-style:italic}
+  .ph-note{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;color:rgba(247,245,243,.55);font-size:.78rem;letter-spacing:.05em;padding:20px}
+
+  /* ---------- SECTION SHELL ---------- */
+  section{padding:84px 0}
+  .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:36px}
+  .sec-head h2{font-size:clamp(1.9rem,4vw,2.7rem);font-weight:900}
+  .sec-num{font-weight:900;font-size:.95rem;color:var(--orange)}
+
+  /* ---------- FEATURED VIDEO ---------- */
+  .featured{background:var(--surf)}
+  .video-frame{position:relative;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/9;background:#0c1c1d}
+  .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .yt-facade{position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;margin:0;cursor:pointer;background:#0c1c1d;display:block;overflow:hidden;text-decoration:none}
+  .yt-thumb{width:100%;height:100%;object-fit:cover;display:block}
+  .yt-facade::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,rgba(0,0,0,.3));pointer-events:none}
+  .yt-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:76px;height:52px;background:rgba(243,111,33,.94);border-radius:14px;display:flex;align-items:center;justify-content:center;transition:transform .2s,background .2s;box-shadow:0 6px 22px rgba(0,0,0,.4);z-index:2}
+  .yt-facade:hover .yt-play{transform:translate(-50%,-50%) scale(1.08);background:var(--orange)}
+  .yt-play svg{width:26px;height:26px;fill:#fff;margin-left:3px}
+  .intro-ph{display:flex;align-items:center;justify-content:center;background:linear-gradient(150deg,var(--dianne),var(--dianne-dk))}
+  .intro-ph .yt-play{position:static;transform:none;margin:0 auto 14px;background:rgba(243,111,33,.55)}
+  .intro-ph-text{font-weight:700;letter-spacing:.04em;font-size:.95rem;color:var(--summer);text-align:center}
+  .featured-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center}
+  .featured-grid .blurb h3{font-size:1.6rem;margin-bottom:14px}
+  .featured-grid .blurb p{color:var(--coffee);font-size:1.02rem}
+  .pill{display:inline-block;background:var(--dianne);color:var(--smoke);font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:30px;margin-bottom:16px}
+
+  /* ---------- BIO ---------- */
+  .bio-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:56px}
+  .bio-body p{font-size:1.08rem;margin-bottom:18px;color:#2c3d3b}
+  .bio-body .lead{font-size:1.5rem;font-weight:300;line-height:1.4;color:var(--ink)}
+  .bio-body .lead b{font-weight:800}
+  .factcard{background:var(--dianne);color:var(--smoke);border-radius:18px;padding:30px;align-self:start;box-shadow:var(--shadow)}
+  .factcard h3{font-size:1.05rem;color:var(--orange-soft);margin-bottom:16px;font-weight:800}
+  .fact{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid rgba(247,245,243,.15);font-size:.92rem}
+  .fact:last-child{border-bottom:0}
+  .fact span:first-child{color:var(--summer);font-weight:600}
+  .fact span:last-child{text-align:right;font-weight:700}
+
+  /* ---------- TOPICS ---------- */
+  .topics{background:var(--dianne);color:var(--smoke)}
+  .topics .sec-head h2{color:var(--smoke)}
+  .topics .sec-num{color:var(--orange-soft)}
+  .topic-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .topic{border:1px solid rgba(247,245,243,.18);border-radius:14px;padding:24px 26px;transition:background .25s,transform .25s,border-color .25s}
+  .topic:hover{background:rgba(243,111,33,.14);transform:translateY(-3px);border-color:var(--orange)}
+  .topic .t-num{font-weight:900;color:var(--orange-soft);font-size:.9rem}
+  .topic h3{font-size:1.18rem;font-weight:800;margin:8px 0 8px}
+  .topic p{font-size:.92rem;color:var(--summer);line-height:1.55}
+
+  /* ---------- CLIPS ---------- */
+  .clip-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  .clip .show{font-size:.74rem;color:var(--orange);letter-spacing:.06em;text-transform:uppercase;font-weight:800;margin-bottom:8px}
+  .clip h3{font-size:1.02rem;font-weight:800;margin-bottom:13px;line-height:1.25;min-height:2.6em}
+  .clip .video-frame{box-shadow:0 12px 36px -18px rgba(26,66,72,.45)}
+  .more-line{margin-top:30px;font-size:.95rem;color:var(--coffee)}
+  .more-line a{color:var(--orange);font-weight:800;text-decoration:none;border-bottom:1.5px solid var(--orange)}
+
+  /* ---------- GALLERY ---------- */
+  .gallery{background:var(--surf)}
+  .photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .photo{position:relative;aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:linear-gradient(150deg,var(--tea),var(--coffee));box-shadow:var(--shadow)}
+  .photo:nth-child(1){grid-row:span 2;aspect-ratio:3/5}
+  .photo img{width:100%;height:100%;object-fit:cover;display:block}
+  .photo .ph-note{color:rgba(247,245,243,.8)}
+  .dl-note{margin-top:22px;font-size:.92rem;color:var(--coffee)}
+  .dl-note a{color:var(--orange);font-weight:800}
+
+  /* ---------- BOOKING ---------- */
+  .booking{background:radial-gradient(120% 100% at 50% 0%,rgba(243,111,33,0.18),transparent 55%),linear-gradient(165deg,var(--dianne),var(--dianne-dk));color:var(--smoke);text-align:center}
+  .booking h2{font-size:clamp(2rem,5vw,3.3rem);font-weight:900;margin-bottom:16px}
+  .booking h2 b{color:var(--orange-soft)}
+  .booking>.wrap>p{color:var(--summer);max-width:50ch;margin:0 auto 8px;font-size:1.05rem}
+  .contact-row{display:flex;gap:46px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+  .contact-item .kicker{display:block;margin-bottom:6px;color:var(--summer)}
+  .contact-item a,.contact-item span.val{font-size:1.08rem;font-weight:700;text-decoration:none}
+  .contact-item a{border-bottom:1.5px solid var(--orange);padding-bottom:2px}
+  .logistics{margin-top:30px;font-size:.9rem;color:var(--summer)}
+  .socials{margin-top:38px;display:flex;gap:24px;justify-content:center;font-size:.86rem;font-weight:700;flex-wrap:wrap}
+  .socials a{opacity:.82;text-decoration:none;transition:opacity .2s,color .2s}
+  .socials a:hover{opacity:1;color:var(--orange-soft)}
+  footer{background:var(--dianne-dk);color:var(--summer);text-align:center;padding:26px;font-size:.78rem;letter-spacing:.03em;display:flex;flex-direction:column;gap:12px;align-items:center}
+  footer .dots i{background:var(--orange)}
+
+  /* ---------- REVEAL ---------- */
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  .hero-copy>*{opacity:0;animation:rise .8s ease forwards}
+  .hero-copy .kicker{animation-delay:.05s}
+  .hero-copy h1{animation-delay:.16s}
+  .hero-copy .pron{animation-delay:.26s}
+  .hero-copy .role{animation-delay:.34s}
+  .hero-copy .tagline{animation-delay:.44s}
+  .hero-copy .cta-row{animation-delay:.56s}
+  .hero-portrait{opacity:0;animation:rise .9s ease .4s forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+
+  @media(max-width:860px){
+    .hero-grid,.featured-grid,.bio-grid{grid-template-columns:1fr;gap:34px}
+    .topic-grid,.clip-grid,.photo-grid{grid-template-columns:1fr}
+    .photo:nth-child(1){grid-row:auto;aspect-ratio:3/4}
+    .navlinks{display:none}
+    .hero-portrait{max-width:340px;border-radius:18px;margin-bottom:-1px}
+    section{padding:58px 0}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brandmark"><span class="dots"><i></i><i></i><i></i><i></i></span> Amy&nbsp;Puzey</div>
+      <div class="navlinks">
+        <a href="#intro">Intro</a>
+        <a href="#bio">Bio</a>
+        <a href="#topics">Topics</a>
+        <a href="#clips">Clips</a>
+        <a href="#book">Booking</a>
+      </div>
+    </nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="kicker">Podcast Guest · Media Kit</span>
+        <h1>Amy Puzey</h1>
+        <div class="pron">Pronounced <b>"Pew-zee"</b></div>
+        <div class="role">Founder &amp; CEO, Goodphyte · Nutritionist · Researcher · Disruptor</div>
+        <p class="tagline">You are not what you eat. You are what you <b>absorb.</b></p>
+        <div class="cta-row">
+          <a href="#book" class="btn btn-primary">Book Amy</a>
+          <a href="#intro" class="btn btn-ghost">Watch intro</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <img src="images/amy-hero.jpg" alt="Amy Puzey - athletic portrait by Peter Collins Photography">
+        <div class="cap">biotech founder · retired elite runner</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ FEATURED INTRO VIDEO ============ -->
+<section class="featured" id="intro">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h2>A quick hello</h2></div>
+    <div class="featured-grid">
+      <div class="video-frame reveal intro-ph">
+        <!-- Bespoke intro clip. Once recorded, replace this whole block with:
+             <div class="video-frame reveal" data-id="UNLISTED_ID"><button class="yt-facade" type="button">
+             <img class="yt-thumb" src="https://i.ytimg.com/vi/UNLISTED_ID/maxresdefault.jpg" alt="">
+             <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></button></div> -->
+        <div>
+          <span class="yt-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <div class="intro-ph-text">Intro clip coming soon</div>
+        </div>
+      </div>
+      <div class="blurb reveal">
+        <span class="pill">For bookers</span>
+        <h3>Made for your show</h3>
+        <p>A short, direct hello from Amy to you and your booking team: who she is, the one idea she most wants to share with your audience, and why it lands with health-minded listeners.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BIO ============ -->
+<section id="bio">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><h2>About Amy</h2></div>
+    <div class="bio-grid">
+      <div class="bio-body reveal">
+        <p class="lead">Amy Puzey is the Founder and CEO of <b>Goodphyte</b>, a biotechnology company pioneering a new category of metabolic, immune, and therapeutic solutions.</p>
+        <p>She is a nutritionist turned biotech entrepreneur, a retired elite mountain runner, and a mother of four. She has built her career around one of the world's most overlooked health challenges: the hidden nutritional barriers that contribute to fatigue, inflammation, autoimmunity, and chronic disease.</p>
+        <p>Amy founded Goodphyte in 2019 and has since led the development of phytase-based technologies that unlock nutrient absorption, optimize metabolic function, and address the root causes of hidden hunger. Goodphyte has evolved beyond nutrition into biotechnology, advancing therapeutic applications and drug-development programs that target autoimmune disease, hypertension, and other chronic conditions.</p>
+        <p>She began her career as a nurse (BScN, University of Alberta), qualified as a nutritionist, and led clinical trials as a Principal Investigator with the Canadian Institutes of Health Research (CIHR) Canadian HIV Trials Network. That research methodology now sits alongside deep patient empathy in everything she builds.</p>
+        <p>Amy is challenging conventional thinking about nutrition, immunity, and disease, driven by a vision to transform human health at its foundation. Her work bridges nutrition science, microbiome research, and pharmaceutical innovation to help people reclaim their energy, resilience, and full potential.</p>
+      </div>
+      <aside class="factcard reveal">
+        <h3>Quick facts</h3>
+        <div class="fact"><span>Role</span><span>Founder &amp; CEO</span></div>
+        <div class="fact"><span>Company</span><span>Goodphyte (founded 2019)</span></div>
+        <div class="fact"><span>Training</span><span>BScN, U. of Alberta</span></div>
+        <div class="fact"><span>Research</span><span>Former PI, CIHR HIV Trials Network</span></div>
+        <div class="fact"><span>Athletics</span><span>Retired elite mountain runner</span></div>
+        <div class="fact"><span>Family</span><span>Mother of four</span></div>
+        <div class="fact"><span>Based in</span><span>Mountain Time (Canada)</span></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOPICS ============ -->
+<section class="topics" id="topics">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><h2>What Amy can talk about</h2></div>
+    <div class="topic-grid">
+      <div class="topic reveal"><div class="t-num">A</div><h3>The hidden hunger epidemic</h3><p>Why billions are micronutrient-deficient even when calories are abundant.</p></div>
+      <div class="topic reveal"><div class="t-num">B</div><h3>Eating healthy isn't enough</h3><p>The phytate problem in whole foods, and why intake does not equal absorption.</p></div>
+      <div class="topic reveal"><div class="t-num">C</div><h3>Phytase, the missing link</h3><p>What it could change for autoimmunity, MS, and chronic disease.</p></div>
+      <div class="topic reveal"><div class="t-num">D</div><h3>The gut-mineral-immune axis</h3><p>How absorption translates into real autoimmune and metabolic outcomes.</p></div>
+      <div class="topic reveal"><div class="t-num">E</div><h3>Nurse to nutritionist to founder</h3><p>Chasing the absorption gap from the clinic to the lab to a biotech company.</p></div>
+      <div class="topic reveal"><div class="t-num">F</div><h3>Iron, fatigue, and recovery</h3><p>What competitive trail and mountain running taught her about minerals.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLIPS ============ -->
+<section id="clips">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">04</span><h2>As heard on</h2></div>
+    <div class="clip-grid">
+      <div class="clip reveal">
+        <div class="show">MS Hope · EP005</div>
+        <h3>Hidden Hunger Epidemic?</h3>
+        <div class="video-frame">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=Ghb-XqTHras" target="_blank" rel="noopener" aria-label="Watch: Amy Puzey on MS Hope">
+            <img class="yt-thumb" src="https://i.ytimg.com/vi/Ghb-XqTHras/maxresdefault.jpg" alt="" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/Ghb-XqTHras/hqdefault.jpg'">
+            <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          </a>
+        </div>
+      </div>
+      <div class="clip reveal">
+        <div class="show">Hope &amp; Health · EP006</div>
+        <h3>The Enzyme That Could Change Global Health</h3>
+        <div class="video-frame">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=fW1CYi1h35Q" target="_blank" rel="noopener" aria-label="Watch: Amy Puzey on Hope &amp; Health with Mathew Embry">
+            <img class="yt-thumb" src="https://i.ytimg.com/vi/fW1CYi1h35Q/maxresdefault.jpg" alt="" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/fW1CYi1h35Q/hqdefault.jpg'">
+            <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          </a>
+        </div>
+      </div>
+      <div class="clip reveal">
+        <div class="show">Cure Your Fatigue · 006</div>
+        <h3>Phytate, with Amy Puzey &amp; Dr. Mike Bedford</h3>
+        <div class="video-frame">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=6Vth0zCn1Dg" target="_blank" rel="noopener" aria-label="Watch: Amy Puzey on Cure Your Fatigue with Morley Robbins">
+            <img class="yt-thumb" src="https://i.ytimg.com/vi/6Vth0zCn1Dg/maxresdefault.jpg" alt="" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/6Vth0zCn1Dg/hqdefault.jpg'">
+            <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="more-line">More: <a href="https://podcasts.apple.com/ca/podcast/125-amy-puzey-fighting-the-goodphyte/id1530868231?i=1000600767817">Inspired Soles, Ep. 125</a> &nbsp;·&nbsp; <a href="https://www.youtube.com/playlist?list=PLhsH2n7BkLUPSOuzhC4DehXC1Dwt5taea">Full appearance playlist</a></p>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery" id="photos">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Press photos</h2></div>
+    <div class="photo-grid">
+      <div class="photo"><img src="images/amy-1.jpg" alt="Amy Puzey on a trail in Sedona, Arizona"></div>
+      <div class="photo"><img src="images/amy-2.jpg" alt="Amy Puzey in the Canadian Rockies"></div>
+      <div class="photo"><img src="images/amy-3.jpg" alt="Amy Puzey at home"></div>
+      <div class="photo"><img src="images/amy-4.jpg" alt="Amy Puzey winning the Cowtown Marathon"></div>
+      <div class="photo"><img src="images/amy-5.png" alt="Amy Puzey headshot"></div>
+    </div>
+    <p class="dl-note">High-resolution versions (300dpi) available on request, or link a shared folder here: <a href="#">Download all photos</a></p>
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section class="booking" id="book">
+  <div class="wrap">
+    <span class="kicker">Booking</span>
+    <h2>Let's get Amy on <b>your</b> show</h2>
+    <p>Available for in-studio, remote video, and audio-only recordings, and happy to tailor the conversation to your audience.</p>
+    <div class="contact-row">
+      <div class="contact-item">
+        <span class="kicker">Booking contact</span>
+        <span class="val">Dr. Stephen Gant, Normandy Consulting Group</span>
+      </div>
+      <div class="contact-item">
+        <span class="kicker">Email</span>
+        <a href="mailto:stephen.gant@gmail.com">stephen.gant@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <span class="kicker">Phone</span>
+        <a href="tel:+19194233783">919-423-3783</a>
+      </div>
+    </div>
+    <p class="logistics">Recording platforms: Riverside · Zoom · StreamYard &nbsp;|&nbsp; Timezone: Mountain Time (Canada)</p>
+    <div class="socials">
+      <a href="https://goodphyte.com">goodphyte.com</a>
+      <a href="https://linkedin.com/in/amypuzey">LinkedIn</a>
+      <a href="https://instagram.com/jointhegoodphyte">@jointhegoodphyte</a>
+      <a href="https://facebook.com/jointhegoodphyte">Facebook</a>
+      <a href="https://youtube.com/@goodphyte">YouTube</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="dots"><i></i><i></i><i></i><i></i></span>
+  <div>© <span id="yr"></span> Goodphyte · Access Nutrients &nbsp;·&nbsp; Media kit prepared by Normandy Consulting Group</div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.15});
+  const reveals = document.querySelectorAll('.reveal');
+  reveals.forEach(el=>io.observe(el));
+  // safety net: never leave content hidden if the observer doesn't fire
+  window.addEventListener('load', ()=>{
+    setTimeout(()=>reveals.forEach(el=>el.classList.add('in')), 1200);
+  });
+
+</script>
+</body>
+</html>
