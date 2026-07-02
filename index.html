@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amy Puzey — Podcast Guest Media Kit</title>
+<title>Amy Puzey & Dr. Mike Bedford — Podcast Guest Media Kit</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- Brand font is Runda Normal. Nunito is used as the closest free web fallback.
@@ -161,6 +161,28 @@
   .hero-portrait{opacity:0;animation:rise .9s ease .4s forwards}
   @keyframes rise{to{opacity:1;transform:none}}
 
+  /* ---------- BEDFORD + PAIRING ---------- */
+  .pairing-note{font-size:.9rem;color:var(--summer);margin-top:22px;max-width:34ch;line-height:1.6}
+  .pairing-note a{color:var(--orange-soft);text-decoration:none;border-bottom:1.5px solid var(--orange-soft)}
+  .bedford-photo{width:100%;aspect-ratio:4/5;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:18px}
+  .bedford-photo img{width:100%;height:100%;object-fit:cover;display:block}
+  .pairing-block{background:var(--dianne);color:var(--smoke);border-radius:14px;padding:24px 28px;margin-top:28px;font-size:1rem;line-height:1.65}
+  .pairing-block b{color:var(--orange-soft)}
+
+  /* ---------- PUBLICATIONS ---------- */
+  .pub-intro{font-size:.95rem;color:var(--coffee);max-width:70ch;margin-bottom:22px;line-height:1.65}
+  .pub-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:22px}
+  .pub-controls select,.pub-controls input{font-family:var(--font);font-size:13px;padding:10px 14px;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--ink)}
+  .pub-controls input{flex:1;min-width:240px}
+  .pub-count{font-size:12px;color:var(--coffee);font-weight:700;white-space:nowrap;font-family:'Courier New',monospace}
+  .pub-item{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-bottom:10px;font-size:14px;line-height:1.6}
+  .pub-item a{color:var(--dianne);text-decoration:none;border-bottom:1px solid var(--orange);font-weight:600}
+  .pub-item a:hover{color:var(--orange)}
+  .pub-meta{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+  .pub-tag{font-size:10px;letter-spacing:.06em;text-transform:uppercase;font-weight:800;padding:3px 10px;border-radius:20px;background:var(--surf);color:var(--dianne)}
+  .pub-tag.lead{background:rgba(243,111,33,.14);color:var(--orange)}
+  .pub-empty{color:var(--coffee);font-size:.9rem;padding:20px 0}
+
   @media(max-width:860px){
     .hero-grid,.featured-grid,.bio-grid{grid-template-columns:1fr;gap:34px}
     .topic-grid,.clip-grid,.photo-grid{grid-template-columns:1fr}
@@ -183,6 +205,8 @@
         <a href="#bio">Bio</a>
         <a href="#topics">Topics</a>
         <a href="#clips">Clips</a>
+        <a href="#bedford">Bedford</a>
+        <a href="#publications">Publications</a>
         <a href="#book">Booking</a>
       </div>
     </nav>
@@ -197,6 +221,7 @@
           <a href="#book" class="btn btn-primary">Book Amy</a>
           <a href="#intro" class="btn btn-ghost">Watch intro</a>
         </div>
+        <p class="pairing-note">Available paired with <a href="#bedford"><b>Dr. Mike Bedford</b></a>, the peer-reviewed phytase researcher behind the science &mdash; the pairing that unlocks science-heavy shows.</p>
       </div>
       <div class="hero-portrait">
         <img src="images/amy-hero.jpg" alt="Amy Puzey - athletic portrait by Peter Collins Photography">
@@ -311,10 +336,50 @@
   </div>
 </section>
 
+<!-- ============ BEDFORD ============ -->
+<section id="bedford">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Featuring Dr. Mike Bedford</h2></div>
+    <div class="bio-grid">
+      <div class="bio-body reveal">
+        <p class="lead">Dr. Mike Bedford is widely recognized as <b>the world's leading authority on phytase enzymes</b> &mdash; the peer-reviewed science behind Amy's product.</p>
+        <p>His research career spans decades, from the commercialization of phytase in animal nutrition to its emerging application in human health. His body of peer-reviewed work established the mechanistic understanding of how phytic acid blocks mineral absorption, and how phytase cleaves phytate bonds to release those minerals.</p>
+        <p>In 2019, that science crossed into human nutrition when Amy Puzey of Goodphyte became the first person to bring phytase to market for human health, drawing directly on the evidence base Dr. Bedford's research helped establish.</p>
+        <p>Dr. Bedford is available as a guest on science-heavy podcasts where peer-reviewed credentials and mechanistic rigor are required, and can appear alongside Amy Puzey as a researcher-entrepreneur pairing.</p>
+      </div>
+      <aside class="factcard reveal">
+        <div class="bedford-photo"><img src="images/bedford-hero.jpg" alt="Dr. Mike Bedford, phytase researcher"></div>
+        <h3>Quick facts</h3>
+        <div class="fact"><span>Role</span><span>Phytase Researcher</span></div>
+        <div class="fact"><span>Publication record</span><span>244 peer-reviewed papers</span></div>
+        <div class="fact"><span>Focus</span><span>Animal &amp; human phytase science</span></div>
+        <div class="fact"><span>Advisory role</span><span>Scientific Advisor, Goodphyte</span></div>
+      </aside>
+    </div>
+    <div class="pairing-block reveal">
+      <b>Dr. Bedford provides the peer-reviewed scientific foundation; Amy Puzey provides the entrepreneurial application and clinical outcome data.</b> Together they represent the complete story &mdash; from laboratory evidence to real-world human results &mdash; in a single episode.
+    </div>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section class="featured" id="publications">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">06</span><h2>Bedford's Research Library</h2></div>
+    <p class="pub-intro">244 peer-reviewed papers spanning four decades of phytase and animal-nutrition science &mdash; 12 as lead author, 232 as part of the research team. Searchable and filterable for producers who want to verify the science behind the story.</p>
+    <div class="pub-controls">
+      <select id="pubCategory"><option value="">All categories</option></select>
+      <input id="pubSearch" type="text" placeholder="Search by title, journal, or year&hellip;">
+      <span class="pub-count" id="pubCount"></span>
+    </div>
+    <div id="pubList"></div>
+  </div>
+</section>
+
 <!-- ============ GALLERY ============ -->
 <section class="gallery" id="photos">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">05</span><h2>Press photos</h2></div>
+    <div class="sec-head"><span class="sec-num">07</span><h2>Press photos</h2></div>
     <div class="photo-grid">
       <div class="photo"><img src="images/amy-1.jpg" alt="Amy Puzey on a trail in Sedona, Arizona"></div>
       <div class="photo"><img src="images/amy-2.jpg" alt="Amy Puzey in the Canadian Rockies"></div>
@@ -374,6 +439,40 @@
     setTimeout(()=>reveals.forEach(el=>el.classList.add('in')), 1200);
   });
 
+  // ── PUBLICATIONS LIBRARY ──────
+  (function(){
+    const listEl = document.getElementById('pubList');
+    const catEl = document.getElementById('pubCategory');
+    const searchEl = document.getElementById('pubSearch');
+    const countEl = document.getElementById('pubCount');
+    let pubs = [];
+    function escPub(s){ return String(s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+    function renderPubs(){
+      const cf = catEl.value, q = searchEl.value.toLowerCase();
+      const rows = pubs.filter(p => (!cf || p.category === cf) &&
+        (!q || (p.title + ' ' + p.journal + ' ' + p.year).toLowerCase().includes(q)));
+      countEl.textContent = rows.length + ' of ' + pubs.length + ' shown';
+      listEl.innerHTML = rows.map(p => `<div class="pub-item">${
+        p.link ? `<a href="${escPub(p.link)}" target="_blank" rel="noopener">${escPub(p.citationText)}</a>` : escPub(p.citationText)
+      }<div class="pub-meta"><span class="pub-tag${p.bedfordRole === 'lead' ? ' lead' : ''}">${p.bedfordRole === 'lead' ? 'Lead author' : 'Co-author'}</span><span class="pub-tag">${escPub(p.category)}</span></div></div>`
+      ).join('') || '<p class="pub-empty">No matches.</p>';
+    }
+    fetch('bedford-citations.json')
+      .then(r => r.json())
+      .then(data => {
+        pubs = data;
+        [...new Set(pubs.map(p => p.category))].sort().forEach(c => {
+          const o = document.createElement('option');
+          o.value = c;
+          o.textContent = c + ' (' + pubs.filter(p => p.category === c).length + ')';
+          catEl.appendChild(o);
+        });
+        renderPubs();
+      })
+      .catch(() => { listEl.innerHTML = '<p class="pub-empty">Failed to load publication list.</p>'; });
+    catEl.onchange = renderPubs;
+    searchEl.oninput = renderPubs;
+  })();
 </script>
 </body>
 </html>
