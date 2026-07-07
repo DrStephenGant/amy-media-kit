@@ -443,7 +443,7 @@
     btn.addEventListener('click', ()=>{
       const frame = btn.closest('.video-frame');
       const f = document.createElement('iframe');
-      f.src = 'https://www.youtube-nocookie.com/embed/'+frame.getAttribute('data-id')+'?autoplay=1&rel=0';
+      f.src = 'https://www.youtube-nocookie.com/embed/'+frame.getAttribute('data-id')+'?autoplay=1&rel=0&cc_load_policy=0';
       f.title = 'A quick hello from Amy Puzey';
       f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
       f.allowFullscreen = true;
