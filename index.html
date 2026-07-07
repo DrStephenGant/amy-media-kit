@@ -236,15 +236,11 @@
   <div class="wrap">
     <div class="sec-head"><span class="sec-num">01</span><h2>A quick hello</h2></div>
     <div class="featured-grid">
-      <div class="video-frame reveal intro-ph">
-        <!-- Bespoke intro clip. Once recorded, replace this whole block with:
-             <div class="video-frame reveal" data-id="UNLISTED_ID"><button class="yt-facade" type="button">
-             <img class="yt-thumb" src="https://i.ytimg.com/vi/UNLISTED_ID/maxresdefault.jpg" alt="">
-             <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></button></div> -->
-        <div>
-          <span class="yt-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-          <div class="intro-ph-text">Intro clip coming soon</div>
-        </div>
+      <div class="video-frame reveal" data-id="v26KTZQ4L4Q">
+        <button class="yt-facade" type="button" aria-label="Play: A quick hello from Amy Puzey">
+          <img class="yt-thumb" src="https://i.ytimg.com/vi/v26KTZQ4L4Q/maxresdefault.jpg" alt="" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/v26KTZQ4L4Q/hqdefault.jpg'">
+          <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </button>
       </div>
       <div class="blurb reveal">
         <span class="pill">For bookers</span>
@@ -440,6 +436,20 @@
   // safety net: never leave content hidden if the observer doesn't fire
   window.addEventListener('load', ()=>{
     setTimeout(()=>reveals.forEach(el=>el.classList.add('in')), 1200);
+  });
+
+  // ── INTRO VIDEO (click facade → load embed inline) ──
+  document.querySelectorAll('.video-frame[data-id] .yt-facade').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const frame = btn.closest('.video-frame');
+      const f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/'+frame.getAttribute('data-id')+'?autoplay=1&rel=0';
+      f.title = 'A quick hello from Amy Puzey';
+      f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      f.allowFullscreen = true;
+      frame.innerHTML = '';
+      frame.appendChild(f);
+    });
   });
 
   // ── PUBLICATIONS LIBRARY ──────
