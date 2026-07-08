@@ -1,52 +1,57 @@
 [
   {
     "id": 1,
-    "citationText": "[1] [Unknown], “Novel use of alkoxylates of mono- and polyvalent alcohols,” .",
+    "citationText": "[1] M. R. Bedford and N. Walker, “Novel use of alkoxylates of mono- and polyvalent alcohols,” Australia patent application, 2017.",
     "link": null,
     "title": "Novel use of alkoxylates of mono- and polyvalent alcohols",
-    "year": "",
+    "year": "2017",
     "journal": "",
-    "bedfordRole": "co-author",
+    "itemType": "patent",
+    "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 2,
-    "citationText": "[2] M. R. Bedford and C. L. Walk, “The use of exogenous enzymes to improve feed efficiency in pigs,” 2017.",
+    "citationText": "[2] M. R. Bedford and C. L. Walk, “The use of exogenous enzymes to improve feed efficiency in pigs,” Burleigh Dodds Series in Agricultural Science, 2017.",
     "link": "https://doi.org/10.19103/as.2017.0013.11",
     "title": "The use of exogenous enzymes to improve feed efficiency in pigs",
     "year": "2017",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "lead",
     "category": "Swine nutrition"
   },
   {
     "id": 3,
-    "citationText": "[3] [Unknown], “Enzyme feed additive and animal feed including it,” .",
+    "citationText": "[3] M. R. Bedford et al., “Enzyme feed additive and animal feed including it,” Patent 11/198,426, 1993.",
     "link": null,
     "title": "Enzyme feed additive and animal feed including it",
-    "year": "",
+    "year": "1993",
     "journal": "",
-    "bedfordRole": "co-author",
+    "itemType": "patent",
+    "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 4,
-    "citationText": "[4] [Unknown], “Use of an enzyme for the manufacture of an agent for controlling bacterial infection,” .",
+    "citationText": "[4] M. R. Bedford and F. Fernandez, “Use of an enzyme for the manufacture of an agent for controlling bacterial infection,” Patent, 2004.",
     "link": null,
     "title": "Use of an enzyme for the manufacture of an agent for controlling bacterial infection",
-    "year": "",
+    "year": "2004",
     "journal": "",
-    "bedfordRole": "co-author",
+    "itemType": "patent",
+    "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
   {
     "id": 5,
-    "citationText": "[5] [Unknown], “The use of an enzyme for promoting pigment uptake from a feed,” .",
+    "citationText": "[5] M. R. Bedford, J. C. Feord, J. O. G. Aranda, and A. J. Morgan, “The use of an enzyme for promoting pigment uptake from a feed,” US and EPO patent application PCT/EP97/05964, 1997.",
     "link": null,
     "title": "The use of an enzyme for promoting pigment uptake from a feed",
-    "year": "",
+    "year": "1997",
     "journal": "",
-    "bedfordRole": "co-author",
+    "itemType": "patent",
+    "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
   {
@@ -56,6 +61,7 @@
     "title": "The influence of an E.coli derived phytase on performance of turkeys fed phosphorus deficient diets",
     "year": "2004",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -66,6 +72,7 @@
     "title": "Assessing measurements in feed enzyme research: Phytase evaluations in broilers",
     "year": "2016",
     "journal": "Journal of Applied Poultry Research",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -76,8 +83,9 @@
     "title": "Is phytase responsible for increasing water:feed intake ratio",
     "year": "2012",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
-    "category": "Enzyme mechanism & kinetics"
+    "category": "Poultry nutrition"
   },
   {
     "id": 9,
@@ -86,6 +94,7 @@
     "title": "Superdosing phytase in broilers: Providing more than just phosphorus in poultry",
     "year": "2013",
     "journal": "Asian Feed Magazine",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -96,6 +105,7 @@
     "title": "EFFECT OF ALTERING THE SOURCE OF NONESSENTIAL NITROGEN ON PERFORMANCE AND CARCASS COMPOSITION OF THE BROILER CHICK",
     "year": "1986",
     "journal": "Canadian Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -106,6 +116,7 @@
     "title": "The effect of wheat cultivar, growing environment, and enzyme supplementation on digestibility of amino acids by broilers",
     "year": "1998",
     "journal": "Canadian Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -116,8 +127,9 @@
     "title": "Recent findings regarding calcium and phytase in poultry nutrition",
     "year": "2017",
     "journal": "Animal Production Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
-    "category": "Mineral bioavailability"
+    "category": "Poultry nutrition"
   },
   {
     "id": 13,
@@ -126,6 +138,7 @@
     "title": "The effect of dietary enzyme supplementation of rye- and barley-based diets on digestion and subsequent performance in weanling pigs",
     "year": "1992",
     "journal": "Canadian Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -136,26 +149,29 @@
     "title": "Enzymes in farm animal nutrition, Cabi",
     "year": "2022",
     "journal": "",
+    "itemType": "book",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 15,
-    "citationText": "[15] M. R. Bedford, T. Parr, M. E. Persia, A. B. Batal, and C. L. Wyatt, “Influence of dietary calcium and phytase source on litter moisture and mineral content,” 2007.",
+    "citationText": "[15] M. R. Bedford, T. Parr, M. E. Persia, A. B. Batal, and C. L. Wyatt, “Influence of dietary calcium and phytase source on litter moisture and mineral content,” Poultry Science Abstracts, 86, 673-673., 2007.",
     "link": null,
     "title": "Influence of dietary calcium and phytase source on litter moisture and mineral content",
     "year": "2007",
     "journal": "",
+    "itemType": "conferencePaper",
     "bedfordRole": "lead",
     "category": "Mineral bioavailability"
   },
   {
     "id": 16,
-    "citationText": "[16] M. R. Bedford, M. Pack, and C. L. Wyatt, “Relevance of in feed analysis of enzyme activity for prediction of bird performance in wheat based diets,” 1997.",
+    "citationText": "[16] M. R. Bedford, M. Pack, and C. L. Wyatt, “Relevance of in feed analysis of enzyme activity for prediction of bird performance in wheat based diets,” Poultry Science Abstracts, 76, 39., 1997.",
     "link": null,
     "title": "Relevance of in feed analysis of enzyme activity for prediction of bird performance in wheat based diets",
     "year": "1997",
     "journal": "",
+    "itemType": "conferencePaper",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -166,6 +182,7 @@
     "title": "Thermostability of enzymes in feed processing: Re-thinking feed assays",
     "year": "1998",
     "journal": "Feed International, June",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -176,6 +193,7 @@
     "title": "Thermostability of enzymes in feed processing examined",
     "year": "1998",
     "journal": "Feedstuffs, August 3",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -186,16 +204,18 @@
     "title": "The use of enzymes in poultry diets",
     "year": "1996",
     "journal": "World's Poultry Science Journal",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
   {
     "id": 20,
-    "citationText": "[20] M. R. Bedford and H. Masey O'Neill, “MYTHBUSTERS-ENZYMES IN THE SPOTLIGHT,” 2012.",
+    "citationText": "[20] M. R. Bedford and H. Masey O'Neill, “MYTHBUSTERS-ENZYMES IN THE SPOTLIGHT,” 23 rd ANNUAL AUSTRALIAN POULTRY SCIENCE SYMPOSIUM, 19-22 February 2012 2012 Sydney. Sydney, Australia: Australian Poultry Science Society, 112-119., 2012.",
     "link": null,
     "title": "MYTHBUSTERS-ENZYMES IN THE SPOTLIGHT",
     "year": "2012",
     "journal": "",
+    "itemType": "conferencePaper",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -206,16 +226,18 @@
     "title": "Relative efficacy of a new, thermotolerant phytase in corn-soy based diets for broilers",
     "year": "2002",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
   {
     "id": 22,
-    "citationText": "[22] M. R. Bedford and J. Inborr, “Effect of increasing the dietary concentrations of two xylanases on the performance and intestinal viscosity of broiler chickens fed diets based on wheat and triticale,” 1993.",
+    "citationText": "[22] M. R. Bedford and J. Inborr, “Effect of increasing the dietary concentrations of two xylanases on the performance and intestinal viscosity of broiler chickens fed diets based on wheat and triticale,” Proc. 9th Europ. Symposium on Poultry Nutrition, Poland, 485-489., 1993.",
     "link": null,
     "title": "Effect of increasing the dietary concentrations of two xylanases on the performance and intestinal viscosity of broiler chickens fed diets based on wheat and triticale",
     "year": "1993",
     "journal": "",
+    "itemType": "conferencePaper",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -226,6 +248,7 @@
     "title": "Phytase assay is not always a reliable indicator",
     "year": "2009",
     "journal": "Asian Poultry",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -236,6 +259,7 @@
     "title": "Influence of dose of a novel xylanase on performance of broilers fed a corn/wheat based diet",
     "year": "2008",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -246,6 +270,7 @@
     "title": "Alternatives to Antibiotics - Nutritional strategies to manage microfloral populations",
     "year": "2002",
     "journal": "9-10 May 2002 2002 Guelph, Ontario, Canada. University of Guelph: Animal Nutrition Association of Canada",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
@@ -256,6 +281,7 @@
     "title": "Matrix values for exogenous enzymes and their application in the real world",
     "year": "2020",
     "journal": "Journal of Applied Poultry Research",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -266,6 +292,7 @@
     "title": "Exogenous enzymes and their effects on intestinal microbiology",
     "year": "2012",
     "journal": "Animal Feed Science and Technology",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
@@ -276,26 +303,29 @@
     "title": "The use of proteases in corn-soya diets",
     "year": "2010",
     "journal": "Feed International",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 29,
-    "citationText": "[29] P. H. Selle, V. Ravindran, A. J. Cowieson, and M. R. Bedford, “Phytate and phytase,” 2010.",
+    "citationText": "[29] P. H. Selle, V. Ravindran, A. J. Cowieson, and M. R. Bedford, “Phytate and phytase,” Enzymes in Farm Animal Nutrition, 2010.",
     "link": "https://doi.org/10.1079/9781845936747.0160",
     "title": "Phytate and phytase",
     "year": "2010",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
   {
     "id": 30,
-    "citationText": "[30] M. R. Bedford and G. Cordero, “Understanding and optimising the use of exogenous enzymes in pig nutrition,” 2024.",
+    "citationText": "[30] M. R. Bedford and G. Cordero, “Understanding and optimising the use of exogenous enzymes in pig nutrition,” Advances in pig nutrition, 2024.",
     "link": "https://doi.org/10.1201/9781003581109-9",
     "title": "Understanding and optimising the use of exogenous enzymes in pig nutrition",
     "year": "2024",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "lead",
     "category": "Swine nutrition"
   },
@@ -306,6 +336,7 @@
     "title": "Microscopic examination of feed and digesta from wheat-fed broiler chickens and its relation to bird performance",
     "year": "1996",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -316,16 +347,18 @@
     "title": "Exposure of a broiler to a xylanase for 35d increases the capacity of cecal microbiome to ferment soluble xylan",
     "year": "2018",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
-    "category": "Gut health & digestion"
+    "category": "Poultry nutrition"
   },
   {
     "id": 33,
-    "citationText": "[33] M. R. Bedford and J. Apajalahti, “Implications of Diet and Enzyme Supplementation on the Microflora of the Intestinal Tract,” 2001.",
+    "citationText": "[33] M. R. Bedford and J. Apajalahti, “Implications of Diet and Enzyme Supplementation on the Microflora of the Intestinal Tract,” Advances in Nutritional Technology 2001, 2001.",
     "link": "https://doi.org/10.1163/9789004683631_014",
     "title": "Implications of Diet and Enzyme Supplementation on the Microflora of the Intestinal Tract",
     "year": "2001",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
@@ -336,6 +369,7 @@
     "title": "Mastering gut functionality - phytic acid and phytase",
     "year": "2023",
     "journal": "Asian feed magazine. Bangkok: Asian feed",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Mineral bioavailability"
   },
@@ -346,6 +380,7 @@
     "title": "Dose response of betaine dietary inclusion in broiler chicks up to 40 days of age [Online]",
     "year": "2014",
     "journal": "Engormix.  [Accessed]",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -356,6 +391,7 @@
     "title": "Potential extraordinary turkey performance through high phytase feed dosages",
     "year": "2012",
     "journal": "Poultry International",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -366,16 +402,18 @@
     "title": "Alternate uses of phytases - superdosing",
     "year": "2012",
     "journal": "Asian Poultry",
+    "itemType": "magazineArticle",
     "bedfordRole": "lead",
-    "category": "Mineral bioavailability"
+    "category": "Enzyme mechanism & kinetics"
   },
   {
     "id": 38,
-    "citationText": "[38] M. R. Bedford, “Pitfalls in digestibility techniques for evaluation of phytases,” 2008.",
+    "citationText": "[38] M. R. Bedford, “Pitfalls in digestibility techniques for evaluation of phytases,” Proceedings of the 13th Worlds Poultry Congress, 13, 76-85., 2008.",
     "link": null,
     "title": "Pitfalls in digestibility techniques for evaluation of phytases",
     "year": "2008",
     "journal": "",
+    "itemType": "conferencePaper",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -386,16 +424,18 @@
     "title": "New enzyme technologies for poultry feeds",
     "year": "2003",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
   {
     "id": 40,
-    "citationText": "[40] M. R. Bedford, “Factors influencing the use of enzymes in cereal based diets,” 2003.",
+    "citationText": "[40] M. R. Bedford, “Factors influencing the use of enzymes in cereal based diets,” Recent advances in Enzymes in Grain Processing, 2003.",
     "link": null,
     "title": "Factors influencing the use of enzymes in cereal based diets",
     "year": "2003",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -406,6 +446,7 @@
     "title": "Removal of antibiotic growth promoters from poultry diets: implications and strategies to minimise subsequent problems",
     "year": "2000",
     "journal": "World's Poultry Science Journal",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -416,6 +457,7 @@
     "title": "Exogenous enzymes in monogastric nutrition — their current value and future benefits",
     "year": "2000",
     "journal": "Animal Feed Science and Technology",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -426,8 +468,9 @@
     "title": "Interaction Between Ingested Feed and the Digestive System in Poultry",
     "year": "1996",
     "journal": "Journal of Applied Poultry Research",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
-    "category": "Poultry nutrition"
+    "category": "Gut health & digestion"
   },
   {
     "id": 44,
@@ -436,6 +479,7 @@
     "title": "The Effect of Enzymes on Digestion",
     "year": "1996",
     "journal": "Journal of Applied Poultry Research",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -446,6 +490,7 @@
     "title": "Mechanism of action and potential environmental benefits from the use of feed enzymes",
     "year": "1995",
     "journal": "Animal Feed Science and Technology",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -456,36 +501,40 @@
     "title": "Mode of Action of Feed Enzymes",
     "year": "1993",
     "journal": "Journal of Applied Poultry Research",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
   {
     "id": 47,
-    "citationText": "[47] M. R. Bedford, “General principles of designing a nutrition experiment,” 2016.",
+    "citationText": "[47] M. R. Bedford, “General principles of designing a nutrition experiment,” Nutrition experiments in pigs and poultry: a practical guide, 2016.",
     "link": "https://doi.org/10.1079/9781780647005.0001",
     "title": "General principles of designing a nutrition experiment",
     "year": "2016",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 48,
-    "citationText": "[48] M. R. Bedford and H. V. M. O'Neill, “Extending the value of the literature: data requirements for holo-analysis and interpretation of the outputs,” 2016.",
+    "citationText": "[48] M. R. Bedford and H. V. M. O'Neill, “Extending the value of the literature: data requirements for holo-analysis and interpretation of the outputs,” Nutrition experiments in pigs and poultry: a practical guide, 2016.",
     "link": "https://doi.org/10.1079/9781780647005.0121",
     "title": "Extending the value of the literature: data requirements for holo-analysis and interpretation of the outputs",
     "year": "2016",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 49,
-    "citationText": "[49] M. R. Bedford, “Effect of non-starch polysaccharidases on avian gastrointestinal function,” 2006.",
+    "citationText": "[49] M. R. Bedford, “Effect of non-starch polysaccharidases on avian gastrointestinal function,” Avian gut function in health and disease, 2006.",
     "link": "https://doi.org/10.1079/9781845931803.0159",
     "title": "Effect of non-starch polysaccharidases on avian gastrointestinal function",
     "year": "2006",
     "journal": "",
+    "itemType": "bookSection",
     "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
@@ -496,6 +545,7 @@
     "title": "Implications of butyrate and its derivatives for gut health and animal production",
     "year": "2018",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
@@ -506,6 +556,7 @@
     "title": "Influence of the ratio of essential to non essential amino acids on performance and carcase composition of the broiler chick",
     "year": "1985",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -516,6 +567,7 @@
     "title": "Effect of dietary lysine on polyamine synthesis in the chick",
     "year": "1987",
     "journal": "The Journal of Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -526,8 +578,9 @@
     "title": "Reduction of intestinal viscosity through manipulation of dietary rye and pentosanase concentration is effected through changes in the carbohydrate composition of the intestinal aqueous phase and results in improved growth rate and food conversion efficiency of broiler chicks",
     "year": "1992",
     "journal": "The Journal of Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Gut health & digestion"
   },
   {
     "id": 54,
@@ -536,6 +589,7 @@
     "title": "An in vitro assay for prediction of broiler intestinal viscosity and growth when fed rye-based diets in the presence of exogenous enzymes",
     "year": "1993",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -546,6 +600,7 @@
     "title": "A simple model for predicting the response of chicks to dietary enzyme supplementation",
     "year": "1996",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -556,6 +611,7 @@
     "title": "Effect of enzyme supplementation of UK-grown lupinus albus on growth performance in broiler chickens",
     "year": "1998",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -566,6 +622,7 @@
     "title": "Exogenous enzymes for pigs and poultry",
     "year": "1998",
     "journal": "Nutrition Research Reviews",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -576,6 +633,7 @@
     "title": "Comparison of sample source (excreta or ileal digesta) and age of broiler chick on measurement of apparent digestible energy of wheat and barley",
     "year": "1998",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -586,6 +644,7 @@
     "title": "Effects of a xylanase on individual bird variation, starch digestion throughout the intestine, and ileal and caecal volatile fatty acid production in chickens fed wheat",
     "year": "1999",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -596,8 +655,9 @@
     "title": "Effects of dietary fat type, pentosan level and xylanase supplementation on digestibility of nutrients and metabolizability of energy in male broilers",
     "year": "1999",
     "journal": "Archiv Fur Tierernahrung",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 61,
@@ -606,6 +666,7 @@
     "title": "Effects of Yucca schdigera extract, Saccharomyces boulardii and enzyme supplementation of wheat-based diets on broiler performance and diet metabolisability",
     "year": "1999",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -616,6 +677,7 @@
     "title": "Intestinal digesta viscosity decreases during coccidial infection in broilers",
     "year": "2000",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -626,6 +688,7 @@
     "title": "Diet influences the colonisation of Campylobacter jejuni and distribution of mucin carbohydrates in the chick intestinal tract",
     "year": "2000",
     "journal": "Cellular and molecular life sciences: CMLS",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -636,8 +699,9 @@
     "title": "Effects of variety, the 1B/1R translocation and xylanase supplementation on nutritive value of wheat for broilers",
     "year": "2001",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 65,
@@ -646,6 +710,7 @@
     "title": "The potential for the improvement of the nutritive value of soya-bean meal by different proteases in broiler chicks and broiler cockerels",
     "year": "2002",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -656,6 +721,7 @@
     "title": "The effects of phytase and phytic acid on the loss of endogenous amino acids and minerals from broiler chickens",
     "year": "2004",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -666,6 +732,7 @@
     "title": "The effect of phytase enzyme and level on nutrient extraction by broilers",
     "year": "2004",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -676,8 +743,9 @@
     "title": "Efficacy of an evolved Escherichia coli phytase in diets of broiler chicks",
     "year": "2005",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Poultry nutrition"
   },
   {
     "id": 69,
@@ -686,6 +754,7 @@
     "title": "A genetically engineered Escherichia coli phytase improves nutrient utilization, growth performance, and bone strength of young swine fed diets deficient in available phosphorus",
     "year": "2006",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -696,6 +765,7 @@
     "title": "Diets containing Escherichia coli-derived phytase on young chickens and turkeys: effects on performance, metabolizable energy, endogenous secretions, and intestinal morphology",
     "year": "2007",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -706,6 +776,7 @@
     "title": "The effect of phytase and glucanase on the ileal digestible energy of corn and soybean meal fed to broilers",
     "year": "2007",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -716,6 +787,7 @@
     "title": "Previous exposure to dietary phytase reduces the endogenous energy losses from precision-fed chickens",
     "year": "2009",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -726,8 +798,9 @@
     "title": "Broiler performance and in vivo viscosity as influenced by a range of xylanases, varying in ability to effect wheat in vitro viscosity",
     "year": "2009",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Gut health & digestion"
   },
   {
     "id": 74,
@@ -736,6 +809,7 @@
     "title": "Performance and immune responses to dietary beta-glucan in broiler chicks",
     "year": "2010",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -746,6 +820,7 @@
     "title": "Immune responses to dietary beta-glucan in broiler chicks during an Eimeria challenge",
     "year": "2010",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -756,8 +831,9 @@
     "title": "The effect of supplementary bacterial phytase on dietary metabolisable energy, nutrient retention and endogenous losses in precision fed broiler chickens",
     "year": "2012",
     "journal": "Journal of Animal Physiology and Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 77,
@@ -766,6 +842,7 @@
     "title": "The effects of supplementary bacterial phytase on dietary energy and total tract amino acid digestibility when fed to young chickens",
     "year": "2011",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -776,6 +853,7 @@
     "title": "Increased dietary sodium chloride concentrations reduce endogenous amino acid flow and influence the physiological response to the ingestion of phytic acid by broiler chickens",
     "year": "2011",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -786,6 +864,7 @@
     "title": "Effects of hydrolysed Saccharomyces cerevisiae yeast and yeast cell wall components on live performance, intestinal histo-morphology and humoral immune response of broilers",
     "year": "2011",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -796,8 +875,9 @@
     "title": "Influence of limestone and phytase on broiler performance, gastrointestinal pH, and apparent ileal nutrient digestibility",
     "year": "2012",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 81,
@@ -806,6 +886,7 @@
     "title": "Energy utilisation and growth performance of chicken fed diets containing graded levels of supplementary bacterial phytase",
     "year": "2013",
     "journal": "The British Journal of Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -816,6 +897,7 @@
     "title": "Effects of corn source on the relationship between in vitro assays and ileal nutrient digestibility",
     "year": "2012",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -826,6 +908,7 @@
     "title": "Extra-phosphoric effects of superdoses of a novel microbial phytase",
     "year": "2013",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -836,8 +919,9 @@
     "title": "Effect of a novel microbial phytase on production performance and tibia mineral concentration in broiler chickens given low-calcium diets",
     "year": "2013",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Poultry nutrition"
   },
   {
     "id": 85,
@@ -846,6 +930,7 @@
     "title": "Effect of intermittent feeding, structural components and phytase on performance and behaviour of broiler chickens",
     "year": "2013",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -856,6 +941,7 @@
     "title": "The effect of dietary calcium inclusion on broiler gastrointestinal pH: quantification and method optimization",
     "year": "2014",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -866,6 +952,7 @@
     "title": "In vitro versus in situ evaluation of the effect of phytase supplementation on calcium and phosphorus solubility in soya bean and rapeseed meal broiler diets",
     "year": "2014",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -876,8 +963,9 @@
     "title": "Influence of superdoses of a novel microbial phytase on growth performance, tibia ash, and gizzard phytate and inositol in young broilers",
     "year": "2014",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Enzyme mechanism & kinetics"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 89,
@@ -886,6 +974,7 @@
     "title": "Nutritional geometry of calcium and phosphorus nutrition in broiler chicks. The effect of different dietary calcium and phosphorus concentrations and ratios on nutrient digestibility",
     "year": "2014",
     "journal": "Animal: An International Journal of Animal Bioscience",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -896,6 +985,7 @@
     "title": "Effect of dietary nonphytate phosphorus and calcium concentration on calcium appetite of broiler chicks",
     "year": "2014",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -906,8 +996,9 @@
     "title": "Ovodefensins, an Oviduct-Specific Antimicrobial Gene Family, Have Evolved in Birds and Reptiles to Protect the Egg by Both Sequence and Intra-Six-Cysteine Sequence Motif Spacing",
     "year": "2015",
     "journal": "Biology of Reproduction",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Human health application"
   },
   {
     "id": 92,
@@ -916,6 +1007,7 @@
     "title": "Quantitative relationships between standardized total tract digestible phosphorus and total calcium intakes and their retention and excretion in growing pigs fed corn-soybean meal diets",
     "year": "2015",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -926,8 +1018,9 @@
     "title": "Methodology affects measures of phosphorus availability in growing broilers: Effects of calcium feeding strategy and dietary adaptation period length on true ileal phosphorus digestibility and predicted endogenous phosphorus losses1",
     "year": "2017",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Enzyme mechanism & kinetics"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 94,
@@ -936,8 +1029,9 @@
     "title": "Hydrolysis of phytate to its lower esters can influence the growth performance and nutrient utilization of broilers with regular or super doses of phytase",
     "year": "2017",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Enzyme mechanism & kinetics"
+    "category": "Poultry nutrition"
   },
   {
     "id": 95,
@@ -946,6 +1040,7 @@
     "title": "Effect of diet phase change, dietary Ca and P level and phytase on bird performance and real-time gizzard pH measurements",
     "year": "2017",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -956,8 +1051,9 @@
     "title": "Effects of a high dose of microbial phytase and myo-inositol supplementation on growth performance, tibia mineralization, nutrient digestibility, litter moisture content, and foot problems in broiler chickens fed phosphorus-deficient diets",
     "year": "2017",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Poultry nutrition"
   },
   {
     "id": 97,
@@ -966,6 +1062,7 @@
     "title": "Intermittent lighting improves resilience of broilers during the peak phase of sub-clinical necrotic enteritis infection",
     "year": "2018",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -976,8 +1073,9 @@
     "title": "Evaluation of dietary calcium level and source and phytase on growth performance, serum metabolites, and ileum mineral contents in broiler chicks fed adequate phosphorus diets from one to 28 days of age",
     "year": "2018",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 99,
@@ -986,8 +1084,9 @@
     "title": "Meta-analysis: explicit value of mono-component proteases in monogastric diets",
     "year": "2018",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Enzyme mechanism & kinetics"
+    "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 100,
@@ -996,6 +1095,7 @@
     "title": "The effects of xylanase on grower pig performance, concentrations of volatile fatty acids and peptide YY in portal and peripheral blood",
     "year": "2018",
     "journal": "Animal: An International Journal of Animal Bioscience",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -1006,6 +1106,7 @@
     "title": "The evolution and application of enzymes in the animal feed industry: the role of data interpretation",
     "year": "2018",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -1016,6 +1117,7 @@
     "title": "Review on docosahexaenoic acid in poultry and swine nutrition: Consequence of enriched animal products on performance and health characteristics",
     "year": "2019",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Human health application"
   },
@@ -1026,6 +1128,7 @@
     "title": "The effect of carbohydrases or prebiotic oligosaccharides on growth performance, nutrient utilisation and development of small intestine and immune organs in broilers fed nutrient-adequate diets based on either wheat or barley",
     "year": "2019",
     "journal": "Journal of the Science of Food and Agriculture",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1036,6 +1139,7 @@
     "title": "Phytase as an alleviator of high-temperature stress in broilers fed adequate and low dietary calcium",
     "year": "2019",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1046,6 +1150,7 @@
     "title": "Effect of a high dose of exogenous phytase and supplementary myo-inositol on mineral solubility of broiler digesta and diets subjected to in vitro digestion assay",
     "year": "2019",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1056,8 +1161,9 @@
     "title": "Wheat sample affects growth performance and the apparent metabolisable energy value for broiler chickens",
     "year": "2019",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Poultry nutrition"
   },
   {
     "id": 107,
@@ -1066,6 +1172,7 @@
     "title": "Effects of age and supplemental xylanase in corn- and wheat-based diets on cecal volatile fatty acid concentrations of broilers1",
     "year": "2019",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1076,6 +1183,7 @@
     "title": "In vitro versus in situ evaluation of xylan hydrolysis into xylo-oligosaccharides in broiler chicken gastrointestinal tract",
     "year": "2020",
     "journal": "Carbohydrate Polymers",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -1086,6 +1194,7 @@
     "title": "Effect of phytase on phosphorous balance in 20-kg barrows fed low or adequate phosphorous diets",
     "year": "2020",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -1096,6 +1205,7 @@
     "title": "Comparative aspects of phytase and xylanase effects on performance, mineral digestibility, and ileal phytate degradation in broilers and turkeys",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1106,6 +1216,7 @@
     "title": "Influence of meat and bone meal, phytase, and antibiotics on broiler chickens challenged with subclinical necrotic enteritis: 1. growth performance, intestinal pH, apparent ileal digestibility, cecal microbiota, and tibial mineralization",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1116,8 +1227,9 @@
     "title": "Arabinoxylan-oligosaccharides kick-start arabinoxylan digestion in the aging broiler",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Gut health & digestion"
+    "category": "Feed formulation & anti-nutrients"
   },
   {
     "id": 113,
@@ -1126,6 +1238,7 @@
     "title": "Influence of meat and bone meal, phytase, and antibiotics on broiler chickens challenged with subclinical necrotic enteritis: 2. intestinal permeability, organ weights, hematology, intestinal morphology, and jejunal gene expression",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1136,6 +1249,7 @@
     "title": "Volatile basic nitrogen measurement in digesta using a Berthelot reaction in automated Skalar instrumentation",
     "year": "2020",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1146,6 +1260,7 @@
     "title": "Efficacy and stability of a novel silica supplement for improving bone development in broilers",
     "year": "2020",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1156,8 +1271,9 @@
     "title": "Interactive effect of 2 dietary calcium and phytase levels on broilers challenged with subclinical necrotic enteritis: part 1-broiler performance, gut lesions and pH, bacterial counts, and apparent ileal digestibility",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Poultry nutrition"
   },
   {
     "id": 117,
@@ -1166,6 +1282,7 @@
     "title": "Stimbiotic supplementation improved performance and reduced inflammatory response via stimulating fiber fermenting microbiome in weaner pigs housed in a poor sanitary environment and fed an antibiotic-free low zinc oxide diet",
     "year": "2020",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -1176,6 +1293,7 @@
     "title": "True ileal calcium digestibility in soybean meal and canola meal, and true ileal phosphorous digestibility in maize-soybean meal and maize-canola meal diets, without and with microbial phytase, for broiler growers and finishers",
     "year": "2021",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1186,6 +1304,7 @@
     "title": "Influence of exogenous phytase supplementation on phytate degradation, plasma inositol, alkaline phosphatase, and glucose concentrations of broilers at 28 days of age",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -1196,6 +1315,7 @@
     "title": "Hulless barley and beta-glucanase levels in the diet affect the performance of coccidiosis-challenged broiler chickens in an age-dependent manner",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1206,6 +1326,7 @@
     "title": "Inositol and gradient phytase supplementation in broiler diets during a 6-week production period: 1. effects on growth performance and meat yield",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1216,6 +1337,7 @@
     "title": "Xylanase Supplementation Modulates the Microbiota of the Large Intestine of Pigs Fed Corn-Based Fiber by Means of a Stimbiotic Mechanism of Action",
     "year": "2021",
     "journal": "Frontiers in Microbiology",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -1226,6 +1348,7 @@
     "title": "Effects of exogenous β-glucanase on ileal digesta soluble β-glucan molecular weight, digestive tract characteristics, and performance of coccidiosis vaccinated broiler chickens fed hulless barley-based diets with and without medication",
     "year": "2021",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1236,6 +1359,7 @@
     "title": "Growth performance, real-time gizzard pH and calcium solubility in the gut of broiler chickens is dependent on the interaction between dietary calcium concentration and limestone particle size",
     "year": "2021",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1246,6 +1370,7 @@
     "title": "Soluble non-starch polysaccharide modulates broiler gastrointestinal tract environment",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -1256,6 +1381,7 @@
     "title": "Evaluation of xylanase and a fermentable xylo-oligosaccharide on performance and ileal digestibility of broiler chickens fed energy and amino acid deficient diets",
     "year": "2021",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1266,6 +1392,7 @@
     "title": "Reduced concentrations of limestone and monocalcium phosphate in diets without or with microbial phytase did not influence gastric pH, fecal score, or growth performance, but reduced bone ash and serum albumin in weanling pigs",
     "year": "2021",
     "journal": "Translational Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -1276,8 +1403,9 @@
     "title": "Feed endoxylanase type and dose affect arabinoxylan hydrolysis and fermentation in ageing broilers",
     "year": "2021",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Gut health & digestion"
+    "category": "Poultry nutrition"
   },
   {
     "id": 129,
@@ -1286,6 +1414,7 @@
     "title": "Effects of supplemental xylanase and xylooligosaccharides on production performance and gut health variables of broiler chickens",
     "year": "2021",
     "journal": "Journal of Animal Science and Biotechnology",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1296,6 +1425,7 @@
     "title": "Effects of phytase supplementation and increased nutrient density on growth performance, carcass characteristics, and hypothalamic appetitive hormone expression and catecholamine concentrations in broilers from 1 to 43 days of age",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1306,8 +1436,9 @@
     "title": "Dietary soluble non-starch polysaccharide level and xylanase influence the gastrointestinal environment and nutrient utilisation in laying hens",
     "year": "2022",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Gut health & digestion"
+    "category": "Poultry nutrition"
   },
   {
     "id": 132,
@@ -1316,8 +1447,9 @@
     "title": "Effects of diet hulless barley and beta-glucanase levels on ileal digesta soluble beta-glucan molecular weight and carbohydrate fermentation in laying hens",
     "year": "2022",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Gut health & digestion"
+    "category": "Poultry nutrition"
   },
   {
     "id": 133,
@@ -1326,6 +1458,7 @@
     "title": "Effects of supplemental myo-inositol on growth performance and apparent total tract digestibility of weanling piglets fed reduced protein high-phytate diets and intestinal epithelial cell proliferation and function",
     "year": "2022",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -1336,6 +1469,7 @@
     "title": "The influence of nutrition on intestinal disease with emphasis on coccidiosis",
     "year": "2022",
     "journal": "Avian Pathology: Journal of the W.V.P.A",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
@@ -1346,6 +1480,7 @@
     "title": "The Growth Performance, Nutrient Digestibility, Gut Bacteria and Bone Strength of Broilers Offered Alternative, Sustainable Diets Varying in Nutrient Specification and Phytase Dose",
     "year": "2022",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1356,6 +1491,7 @@
     "title": "Requirement of digestible calcium at different dietary concentrations of digestible phosphorus for broiler chickens. 2. Broiler growers (d 11 to 24 post-hatch)",
     "year": "2022",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1366,6 +1502,7 @@
     "title": "Large intestinal dynamics differ between fowl and swine: Anatomical modifications, microbial collaboration, and digestive advantages from fibrolytic enzymes",
     "year": "2022",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1376,6 +1513,7 @@
     "title": "Phytase dose-dependent response of kidney inositol phosphate levels in poultry",
     "year": "2022",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -1386,6 +1524,7 @@
     "title": "Can the broiler industry rely on results of existing life cycle assessment and environmental assessments studies to inform broilers' nutritional strategies?",
     "year": "2023",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -1396,8 +1535,9 @@
     "title": "A bacteriophage cocktail delivered in feed significantly reduced Salmonella colonization in challenged broiler chickens",
     "year": "2023",
     "journal": "Emerging Microbes & Infections",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Gut health & digestion"
   },
   {
     "id": 141,
@@ -1406,8 +1546,9 @@
     "title": "Accentuating the positive and eliminating the negative: Efficacy of TiO2 as digestibility index marker for poultry nutrition studies",
     "year": "2023",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Enzyme mechanism & kinetics"
   },
   {
     "id": 142,
@@ -1416,6 +1557,7 @@
     "title": "Impact of Phytase Supplementation on Meat Quality of Heat-Stressed Broilers",
     "year": "2023",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1426,6 +1568,7 @@
     "title": "Influence of two levels of phytic acid and particle size of oyster shell on the performance, calcium digestibility, gastrointestinal pH, and bone traits in broilers",
     "year": "2023",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1436,6 +1579,7 @@
     "title": "Diet medication and beta-glucanase affect ileal digesta soluble beta-glucan molecular weight, carbohydrate fermentation, and performance of coccidiosis vaccinated broiler chickens given wheat-based diets",
     "year": "2023",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1446,8 +1590,9 @@
     "title": "Using in feed xylanase or stimbiotic to reduce the variability in corn nutritive value for broiler chickens",
     "year": "2024",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Poultry nutrition"
   },
   {
     "id": 146,
@@ -1456,6 +1601,7 @@
     "title": "Stimbiotic supplementation and xylose-rich carbohydrates modulate broiler's capacity to ferment fibre",
     "year": "2023",
     "journal": "Frontiers in Microbiology",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1466,6 +1612,7 @@
     "title": "Broad host range phages target global Clostridium perfringens bacterial strains and clear infection in five-strain model systems",
     "year": "2024",
     "journal": "Microbiology Spectrum",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1476,6 +1623,7 @@
     "title": "Teaching the principles of least-cost poultry feed formulation utilizing the Solver function within a computer software workbook",
     "year": "2024",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -1486,6 +1634,7 @@
     "title": "Metabolic modelling uncovers the complex interplay between fungal probiotics, poultry microbiomes, and diet",
     "year": "2024",
     "journal": "Microbiome",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1496,6 +1645,7 @@
     "title": "Growth performance, nutrient utilization, gut integrity, short-chain fatty acids, and gene expression in Eimeria-challenged broilers receiving stimbiotics and wheat bran as an additional fiber source",
     "year": "2025",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1506,6 +1656,7 @@
     "title": "Sequential Galacto- and Xylo-Oligosaccharide Feeding Transiently Modulates Gut Microbiota and Upregulates Intestinal Alkaline Phosphatase in Weaning Piglets",
     "year": "2025",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1516,6 +1667,7 @@
     "title": "Effect of dietary ornithine on renal and hepatic polyamine synthesis",
     "year": "1988",
     "journal": "Annals of Nutrition & Metabolism",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -1526,6 +1678,7 @@
     "title": "Regulation of polyamine synthesis by dietary alpha-aminoisobutyric acid and ornithine",
     "year": "1988",
     "journal": "Proceedings of the Society for Experimental Biology and Medicine. Society for Experimental Biology and Medicine",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -1536,6 +1689,7 @@
     "title": "The effect of pelleting, salt, and pentosanase on the viscosity of intestinal contents and the performance of broilers fed rye",
     "year": "1991",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -1546,6 +1700,7 @@
     "title": "Removal of the alpha-galactosides of sucrose from soybean meal using either ethanol extraction or exogenous alpha-galactosidase and broiler performance",
     "year": "1995",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -1556,6 +1711,7 @@
     "title": "Increased small intestinal fermentation is partly responsible for the anti-nutritive activity of non-starch polysaccharides in chickens",
     "year": "1996",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1566,6 +1722,7 @@
     "title": "Determination of the true metabolisable energy of diets based on two wheat cultivars of established variability in apparent metabolisable energy",
     "year": "1998",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1576,6 +1733,7 @@
     "title": "A broiler chick bioassay for measuring the feeding value of wheat and barley in complete diets",
     "year": "1998",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1586,6 +1744,7 @@
     "title": "Effect of pelleting temperature on the recovery and efficacy of a xylanase enzyme in wheat-based diets",
     "year": "1999",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -1596,6 +1755,7 @@
     "title": "Effects of age and diet on the viscosity of intestinal contents in broiler chicks",
     "year": "1999",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1606,6 +1766,7 @@
     "title": "Effect of exogenous enzymes fed with a wheat or wheat rye-based diet on the performance of female broiler breeders",
     "year": "1999",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1616,6 +1777,7 @@
     "title": "Effect of enzyme supplementation on the growth and food conversion efficiency of broiler chicks on lupin-based diets",
     "year": "1999",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1626,6 +1788,7 @@
     "title": "Effects of diet formulation and enzyme inclusion on apparent metabolisable energy (AME) concentration in wheat-based diets and on broiler performance",
     "year": "1999",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1636,6 +1799,7 @@
     "title": "The effects of adding xylanase, vitamin C and copper sulphate to wheat-based diets on broiler performance",
     "year": "2001",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1646,6 +1810,7 @@
     "title": "Percent G+C profiling accurately reveals diet-related differences in the gastrointestinal microbial community of broiler chickens",
     "year": "2001",
     "journal": "Applied and Environmental Microbiology",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1656,6 +1821,7 @@
     "title": "Effect of wheat content, fat source and enzyme supplementation on diet metabolisability and broiler performance",
     "year": "2001",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1666,8 +1832,9 @@
     "title": "Supplementation of diets containing pea meal with exogenous enzymes: effects on weight gain, feed conversion, nutrient digestibility and gross morphology of the gastrointestinal tract of growing broiler chicks",
     "year": "2003",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Poultry nutrition"
   },
   {
     "id": 168,
@@ -1676,6 +1843,7 @@
     "title": "Chemical composition and the nutritive quality of different wheat cultivars for broiler chickens",
     "year": "2003",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1686,6 +1854,7 @@
     "title": "The yeast production system in which Escherichia coli phytase is expressed may affect growth performance, bone ash, and nutrient use in broiler chicks",
     "year": "2004",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1696,6 +1865,7 @@
     "title": "The effects of supplementation of maize-based diets with exogenous phytase on amino acid digestibility and nitrogen retention by young broiler chicks",
     "year": "2004",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1706,6 +1876,7 @@
     "title": "The effect of a range of xylanases added to a wheat-based diet on broiler performance and microflora populations",
     "year": "2004",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1716,6 +1887,7 @@
     "title": "Exogenous dietary xylanase ameliorates viscosity-induced anti-nutritional effects in wheat-based diets for White Pekin ducks (Anas platyrinchos domesticus)",
     "year": "2004",
     "journal": "The British Journal of Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1726,6 +1898,7 @@
     "title": "Phytic acid and phytase: implications for protein utilization by poultry",
     "year": "2006",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1736,6 +1909,7 @@
     "title": "Supplementation of corn-soy-based diets with an Eschericia coli-derived phytase: effects on broiler chick performance and the digestibility of amino acids and metabolizability of minerals and energy",
     "year": "2006",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1746,6 +1920,7 @@
     "title": "Corn expressing an Escherichia coli-derived phytase gene: a proof-of-concept nutritional study in pigs",
     "year": "2007",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -1756,6 +1931,7 @@
     "title": "Effects of dietary phytase on performance and nutrient metabolism in chickens",
     "year": "2008",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1766,6 +1942,7 @@
     "title": "Corn expressing an Escherichia coli-derived phytase gene: residual phytase activity and microstructure of digesta in broiler chicks",
     "year": "2009",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1776,6 +1953,7 @@
     "title": "Effects of different dietary phytase activities on the concentration of antioxidants in the liver of growing broilers",
     "year": "2010",
     "journal": "Journal of Animal Physiology and Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1786,6 +1964,7 @@
     "title": "The effect on performance, energy metabolism and hepatic carotenoid content when phytase supplemented diets were fed to broiler chickens",
     "year": "2010",
     "journal": "Research in Veterinary Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1796,6 +1975,7 @@
     "title": "Interactions between xylanase and glucanase in maize-soy-based diets for broilers",
     "year": "2010",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1806,6 +1986,7 @@
     "title": "Effect of dietary xylanase on energy, amino acid and mineral metabolism, and egg production and quality in laying hens",
     "year": "2010",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1816,6 +1997,7 @@
     "title": "The effect of previous exposure to dietary microbial phytase on the endogenous excretions of energy, nitrogen and minerals from turkeys",
     "year": "2011",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1826,6 +2008,7 @@
     "title": "The effects of supplementary bacterial phytase on dietary true metabolisable energy, nutrient digestibility and endogenous losses in precision fed turkeys",
     "year": "2011",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1836,6 +2019,7 @@
     "title": "Assessment of yeast cell wall as replacements for antibiotic growth promoters in broiler diets: effects on performance, intestinal histo-morphology and humoral immune responses",
     "year": "2012",
     "journal": "Journal of Animal Physiology and Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1846,6 +2030,7 @@
     "title": "In vitro evaluation of limestone, dicalcium phosphate, and phytase on calcium and phosphorus solubility of corn and soybean meal",
     "year": "2012",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1856,6 +2041,7 @@
     "title": "The effect of reduced calorie diets, with and without fat, and the use of xylanase on performance characteristics of broilers between 0 and 42 days",
     "year": "2012",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1866,6 +2052,7 @@
     "title": "Influence of diet, phytase, and incubation time on calcium and phosphorus solubility in the gastric and small intestinal phase of an in vitro digestion assay",
     "year": "2012",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1876,6 +2063,7 @@
     "title": "Evaluation of a highly soluble calcium source and phytase in the diets of broiler chickens",
     "year": "2012",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1886,6 +2074,7 @@
     "title": "Assessment of potential enhancing effects of a carbohydrase mixture on phytase efficacy in male broiler chicks fed phosphorus-deficient diets from 1 to 18 days of age",
     "year": "2013",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1896,6 +2085,7 @@
     "title": "Extra-phosphoric effects of phytase with and without xylanase in corn-soybean meal-based diets fed to broilers",
     "year": "2013",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1906,6 +2096,7 @@
     "title": "Interactions between phytase and xylanase enzymes in male broiler chicks fed phosphorus-deficient diets from 1 to 18 days of age",
     "year": "2013",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1916,6 +2107,7 @@
     "title": "Interactive effects of phytase and xylanase supplementation with extractable salt-soluble protein content of corn in diets with adequate calcium and nonphytate phosphorus fed to broilers",
     "year": "2013",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -1926,6 +2118,7 @@
     "title": "Effect of high phytase inclusion rates on performance of broilers fed diets not severely limited in available phosphorus",
     "year": "2013",
     "journal": "Asian-Australasian Journal of Animal Sciences",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -1936,6 +2129,7 @@
     "title": "Extensive microbial and functional diversity within the chicken cecal microbiome",
     "year": "2014",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1946,6 +2140,7 @@
     "title": "Influence of the in vivo method and basal dietary ingredients employed in the determination of the amino acid digestibility of wheat distillers dried grains with solubles in broilers",
     "year": "2014",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -1956,6 +2151,7 @@
     "title": "Nutritional geometry of calcium and phosphorus nutrition in broiler chicks. Growth performance, skeletal health and intake arrays",
     "year": "2014",
     "journal": "Animal: An International Journal of Animal Bioscience",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -1966,6 +2162,7 @@
     "title": "Multicarbohydrase Enzymes for Non-ruminants",
     "year": "2014",
     "journal": "Asian-Australasian Journal of Animal Sciences",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -1976,6 +2173,7 @@
     "title": "Phytase modulates ileal microbiota and enhances growth performance of the broiler chickens",
     "year": "2015",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -1986,6 +2184,7 @@
     "title": "Contribution of intestinal- and cereal-derived phytase activity on phytate degradation in young broilers",
     "year": "2015",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -1996,6 +2195,7 @@
     "title": "Enzymes enhance degradation of the fiber-starch-protein matrix of distillers dried grains with solubles as revealed by a porcine in vitro fermentation model and microscopy",
     "year": "2015",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -2006,6 +2206,7 @@
     "title": "Effects of calcium feeding strategy on true ileal phosphorus digestibility and true phosphorus retention determined with growing broilers",
     "year": "2016",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2016,6 +2217,7 @@
     "title": "Interactive effects of dietary adaptation period length and titration diet type on apparent ileal phosphorus digestibility and phosphorus retention in growing broilers",
     "year": "2016",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2026,6 +2228,7 @@
     "title": "Effect of feeding broilers diets differing in susceptible phytate content",
     "year": "2016",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -2036,6 +2239,7 @@
     "title": "Evaluation of the effect of different wheats and xylanase supplementation on performance, nutrient and energy utilisation in broiler chicks",
     "year": "2016",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2046,8 +2250,9 @@
     "title": "Methodology affects measures of phosphorus availability in growing broilers. 2. Effects of calcium feeding strategy and dietary adaptation period length on phytate hydrolysis at different locations in the gastrointestinal tract1",
     "year": "2017",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 206,
@@ -2056,6 +2261,7 @@
     "title": "Response of broiler chickens fed wheat-based diets to xylanase supplementation",
     "year": "2017",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2066,6 +2272,7 @@
     "title": "Efficiency of xylanases from families 10 and 11 in production of xylo-oligosaccharides from wheat arabinoxylans",
     "year": "2017",
     "journal": "Carbohydrate Polymers",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2076,6 +2283,7 @@
     "title": "Effect of phytase superdosing, myo-inositol and available phosphorus concentrations on performance and bone mineralisation in broilers",
     "year": "2017",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2086,6 +2294,7 @@
     "title": "SnoopLigase Catalyzes Peptide-Peptide Locking and Enables Solid-Phase Conjugate Isolation",
     "year": "2018",
     "journal": "Journal of the American Chemical Society",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2096,8 +2305,9 @@
     "title": "Superdosing phytase reduces real-time gastric pH in broilers and weaned piglets",
     "year": "2018",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Enzyme mechanism & kinetics"
   },
   {
     "id": 211,
@@ -2106,8 +2316,9 @@
     "title": "Effect of phytase on growth performance, phytate degradation and gene expression of myo-inositol transporters in the small intestine, liver and kidney of 21 day old broilers",
     "year": "2018",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Enzyme mechanism & kinetics"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 212,
@@ -2116,6 +2327,7 @@
     "title": "The effects of phytase and xylanase supplementation on performance and egg quality in laying hens",
     "year": "2018",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2126,8 +2338,9 @@
     "title": "Exogenous phytase and xylanase exhibit opposing effects on real-time gizzard pH in broiler chickens",
     "year": "2018",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Gut health & digestion"
+    "category": "Enzyme mechanism & kinetics"
   },
   {
     "id": 214,
@@ -2136,8 +2349,9 @@
     "title": "Xylo-oligosaccharides display a prebiotic activity when used to supplement wheat or corn-based diets for broilers",
     "year": "2018",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Gut health & digestion"
   },
   {
     "id": 215,
@@ -2146,6 +2360,7 @@
     "title": "Investigation of xylanase, diet formulation method for energy, and choice of digestibility index marker on nutrient and energy utilization for broiler chickens and pigs",
     "year": "2019",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2156,6 +2371,7 @@
     "title": "Comparative effects of wheat varieties and xylanase supplementation on growth performance, nutrient utilization, net energy, and whole-body energy and nutrient partitioning in broilers at different ages",
     "year": "2019",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2166,8 +2382,9 @@
     "title": "Effects of cereal grain source and supplemental xylanase concentrations on broiler growth performance and cecal volatile fatty acid concentrations from 1 to 40 d of age2",
     "year": "2019",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Gut health & digestion"
+    "category": "Poultry nutrition"
   },
   {
     "id": 218,
@@ -2176,6 +2393,7 @@
     "title": "Response of broiler chickens to xylanase and butyrate supplementation",
     "year": "2019",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2186,6 +2404,7 @@
     "title": "Age-related arabinoxylan hydrolysis and fermentation in the gastrointestinal tract of broilers fed wheat-based diets",
     "year": "2019",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2196,6 +2415,7 @@
     "title": "The association between faecal host DNA or faecal calprotectin and feed efficiency in pigs fed yeast-enriched protein concentrate",
     "year": "2019",
     "journal": "Animal: An International Journal of Animal Bioscience",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2206,6 +2426,7 @@
     "title": "Sampling duration and freezing temperature influence the analysed gastric inositol phosphate composition of pigs fed diets with different levels of phytase",
     "year": "2019",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2216,6 +2437,7 @@
     "title": "Effect of phytase on intestinal phytate breakdown, plasma inositol concentrations, and glucose transporter type 4 abundance in muscle membranes of weanling pigs1",
     "year": "2019",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2226,8 +2448,9 @@
     "title": "Xylanase and xylo- oligosaccharide prebiotic improve the growth performance and concentration of potentially prebiotic oligosaccharides in the ileum of broiler chickens",
     "year": "2020",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Gut health & digestion"
   },
   {
     "id": 224,
@@ -2236,6 +2459,7 @@
     "title": "Effect of age on the relationship between metabolizable energy and digestible energy for broiler chickens",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2246,6 +2470,7 @@
     "title": "Simultaneous determination of cereal monosaccharides, xylo- and arabinoxylo-oligosaccharides and uronic acids using HPAEC-PAD",
     "year": "2020",
     "journal": "Food Chemistry",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2256,6 +2481,7 @@
     "title": "The similarity of the effect of carbohydrase or prebiotic supplementation in broilers aged 21 days, fed mixed cereal diets and challenged with coccidiosis infection",
     "year": "2020",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2266,6 +2492,7 @@
     "title": "Increasing calcium from deficient to adequate concentration in diets for gestating sows decreases digestibility of phosphorus and reduces serum concentration of a bone resorption biomarker",
     "year": "2020",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2276,6 +2503,7 @@
     "title": "Short-chain fatty acids and ceca microbiota profiles in broilers and turkeys in response to diets supplemented with phytase at varying concentrations, with or without xylanase",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2286,6 +2514,7 @@
     "title": "Endogenous enzyme activities and tibia bone development of broiler chickens fed wheat-based diets supplemented with xylanase, β-glucanase and phytase",
     "year": "2021",
     "journal": "Animal Bioscience",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2296,6 +2525,7 @@
     "title": "Interactive effect of dietary calcium and phytase on broilers challenged with subclinical necrotic enteritis: 3. Serum calcium and phosphorus, and bone mineralization",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2306,8 +2536,9 @@
     "title": "The effects of exogenous xylanase supplementation on the in vivo generation of xylooligosaccharides and monosaccharides in broilers fed a wheat-based diet",
     "year": "2020",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Feed formulation & anti-nutrients"
+    "category": "Gut health & digestion"
   },
   {
     "id": 232,
@@ -2316,6 +2547,7 @@
     "title": "Xylanase increased the energetic contribution of fiber and improved the oxidative status, gut barrier integrity, and growth performance of growing pigs fed insoluble corn-based fiber",
     "year": "2020",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2326,6 +2558,7 @@
     "title": "Interactive effect of dietary calcium and phytase on broilers challenged with subclinical necrotic enteritis: part 2. Gut permeability, phytate ester concentrations, jejunal gene expression, and intestinal morphology",
     "year": "2020",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2336,6 +2569,7 @@
     "title": "Over-processed meat and bone meal and phytase effects on broilers challenged with subclinical necrotic enteritis: Part 1. Performance, intestinal lesions and pH, bacterial counts and apparent ileal digestibility",
     "year": "2020",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2346,6 +2580,7 @@
     "title": "Influence of Particle Size and Xylanase in Corn-Soybean Pelleted Diets on Performance, Nutrient Utilization, Microbiota and Short-Chain Fatty Acid Production in Young Broilers",
     "year": "2020",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2356,6 +2591,7 @@
     "title": "Dietary xylanase and live yeast supplementation influence intestinal bacterial populations and growth performance of piglets fed a sorghum-based diet",
     "year": "2020",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2366,6 +2602,7 @@
     "title": "Over-processed meat and bone meal and phytase effects on broilers challenged with subclinical necrotic enteritis: Part 2. Inositol phosphate esters hydrolysis, intestinal permeability, hematology, jejunal gene expression and intestinal morphology",
     "year": "2020",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2376,6 +2613,7 @@
     "title": "Snapshots during the catalytic cycle of a histidine acid phytase reveal an induced-fit structural mechanism",
     "year": "2020",
     "journal": "The Journal of Biological Chemistry",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2386,6 +2624,7 @@
     "title": "The effects of the fiber source and xylanase supplementation on production, egg quality, digestibility, and intestinal morphology in the aged laying hen",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2396,6 +2635,7 @@
     "title": "Inositol and gradient phytase supplementation in broiler diets during a 6-week production period: 2. Effects on phytate degradation and inositol liberation in gizzard and ileal digesta contents",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -2406,6 +2646,7 @@
     "title": "Effects of hulless barley and exogenous beta-glucanase levels on ileal digesta soluble beta-glucan molecular weight, digestive tract characteristics, and performance of broiler chickens",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2416,6 +2657,7 @@
     "title": "Xylanase modulates the microbiota of ileal mucosa and digesta of pigs fed corn-based arabinoxylans likely through both a stimbiotic and prebiotic mechanism",
     "year": "2021",
     "journal": "PloS One",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2426,6 +2668,7 @@
     "title": "Formulating diets based on digestible calcium instead of total calcium does not affect growth performance or carcass characteristics, but microbial phytase ameliorates bone resorption caused by low calcium in diets fed to pigs from 11 to 130 kg",
     "year": "2021",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2436,6 +2679,7 @@
     "title": "Formulation of diets for pigs based on a ratio between digestible calcium and digestible phosphorus results in reduced excretion of calcium in urine without affecting retention of calcium and phosphorus compared with formulation based on values for total calcium",
     "year": "2021",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2446,8 +2690,9 @@
     "title": "Quantities of ash, Ca, and P in metacarpals, metatarsals, and tibia are better correlated with total body bone ash in growing pigs than ash, Ca, and P in other bones",
     "year": "2021",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Swine nutrition"
   },
   {
     "id": 246,
@@ -2456,8 +2701,9 @@
     "title": "Over-processed meat and bone meal and phytase effects on broilers challenged with subclinical necrotic enteritis: Part 3. Bone mineralization and litter quality",
     "year": "2021",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Mineral bioavailability"
   },
   {
     "id": 247,
@@ -2466,6 +2712,7 @@
     "title": "The influence of xylanase on the fermentability, digestibility, and physicochemical properties of insoluble corn-based fiber along the gastrointestinal tract of growing pigs",
     "year": "2021",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2476,6 +2723,7 @@
     "title": "Comparison of the apparent ileal calcium digestibility of limestone in broilers and layers",
     "year": "2021",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2486,6 +2734,7 @@
     "title": "Growth performance and total tract digestibility in broiler chickens fed different corn hybrids",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2496,6 +2745,7 @@
     "title": "Application of Creep Feed and Phytase Super-Dosing as Tools to Support Digestive Adaption and Feed Efficiency in Piglets at Weaning",
     "year": "2021",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2506,6 +2756,7 @@
     "title": "Hulless barley and β-glucanase affect ileal digesta soluble beta-glucan molecular weight and digestive tract characteristics of coccidiosis-vaccinated broilers",
     "year": "2021",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2516,6 +2767,7 @@
     "title": "Gastrobodies are engineered antibody mimetics resilient to pepsin and hydrochloric acid",
     "year": "2021",
     "journal": "Communications Biology",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Human health application"
   },
@@ -2526,6 +2778,7 @@
     "title": "Requirement of digestible calcium at different dietary concentrations of digestible phosphorus for broiler chickens. 1. Broiler starters (d 1 to 10 post-hatch)",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Mineral bioavailability"
   },
@@ -2536,6 +2789,7 @@
     "title": "Effect of sodium sources and exogenous phytase supplementation on growth performance, nutrient digestibility, and digesta pH of 21-day-old broilers",
     "year": "2021",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2546,6 +2800,7 @@
     "title": "Increased microbial phytase increased phytate destruction, plasma inositol, and feed efficiency of weanling pigs, but reduced dietary calcium and phosphorus did not affect gastric pH or fecal score and reduced growth performance and bone ash",
     "year": "2021",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2556,6 +2811,7 @@
     "title": "The role of feed enzymes in maintaining poultry intestinal health",
     "year": "2022",
     "journal": "Journal of the Science of Food and Agriculture",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Gut health & digestion"
   },
@@ -2566,6 +2822,7 @@
     "title": "Interaction between xylanase and a proton pump inhibitor on broiler chicken performance and gut function",
     "year": "2022",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2576,6 +2833,7 @@
     "title": "Dietary Soluble Non-Starch Polysaccharide Level Influences Performance, Nutrient Utilisation and Disappearance of Non-Starch Polysaccharides in Broiler Chickens",
     "year": "2022",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2586,6 +2844,7 @@
     "title": "Insights to the Structural Basis for the Stereospecificity of the Escherichia coli Phytase, AppA",
     "year": "2022",
     "journal": "International Journal of Molecular Sciences",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2596,6 +2855,7 @@
     "title": "Improving sorghum digestion in broilers by targeting fermentation of xylan",
     "year": "2022",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2606,8 +2866,9 @@
     "title": "Supplementation of xylo-oligosaccharides to suckling piglets promotes the growth of fiber-degrading gut bacterial populations during the lactation and nursery periods",
     "year": "2022",
     "journal": "Scientific Reports",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Gut health & digestion"
+    "category": "Swine nutrition"
   },
   {
     "id": 262,
@@ -2616,6 +2877,7 @@
     "title": "Apparent digestibility of energy and nutrients and efficiency of microbial phytase is influenced by body weight of pigs",
     "year": "2022",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2626,6 +2888,7 @@
     "title": "Rapeseed meal processing and dietary enzymes modulate excreta inositol phosphate profile, nutrient availability, and production performance of broiler chickens",
     "year": "2022",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2636,6 +2899,7 @@
     "title": "Corrigendum to \"Requirement of digestible calcium at different dietary concentrations of digestible phosphorus for broiler chickens. 2. Broiler growers (d 11 to 24 post-hatch)\" [Poultry Science, Volume 101, Issue 11, November 2022, 102135]",
     "year": "2022",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2646,6 +2910,7 @@
     "title": "Impact of fermentable fiber, xylo-oligosaccharides and xylanase on laying hen productive performance and nutrient utilization",
     "year": "2022",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2656,6 +2921,7 @@
     "title": "Reduced-particle size wheat bran and endoxylanase supplementation in broiler feed affect arabinoxylan hydrolysis and fermentation with broiler age differently",
     "year": "2023",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2666,8 +2932,9 @@
     "title": "Requirement of digestible calcium at different dietary concentrations of digestible phosphorus for broiler chickens 3. Broiler finishers (d 25 to 35 post-hatch)",
     "year": "2023",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Poultry nutrition"
   },
   {
     "id": 268,
@@ -2676,6 +2943,7 @@
     "title": "Effects of adaptation diet and exogenous enzymes on true metabolizable energy and cecal microbial ecology, short-chain fatty acid profile, and enzyme activity in roosters fed barley and rye diets",
     "year": "2023",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2686,6 +2954,7 @@
     "title": "Calcium Nutrition of Broilers: Current Perspectives and Challenges",
     "year": "2023",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2696,6 +2965,7 @@
     "title": "The effect of different wheat varieties and exogenous xylanase on bird performance and utilization of energy and nutrients",
     "year": "2023",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2706,6 +2976,7 @@
     "title": "Endogenous mucin conveyed to the mucosa with microbes can assure lumen fermentation and large intestinal security-swine versus fowl",
     "year": "2023",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2716,6 +2987,7 @@
     "title": "Broiler chicken response to xylanase and fermentable xylooligosaccharide supplementation",
     "year": "2023",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2726,6 +2998,7 @@
     "title": "Approaches to determine the efficiency of novel 3-phytase from Klebsiella pneumoniae and commercial phytase in broilers from 1 to 14 d of age",
     "year": "2023",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2736,6 +3009,7 @@
     "title": "Xylo-oligosaccharide-based prebiotics upregulate the proteins of the Sus-like system in caecal Bacteroidetes of the chicken: evidence of stimbiotic mechanism",
     "year": "2023",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2746,6 +3020,7 @@
     "title": "Interactive effects of a stimbiotic supplementation and wheat bran inclusion in corn- or wheat-based diets on growth performance, ileal digestibility, and expression of nutrient transporters of broilers chickens",
     "year": "2024",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2756,6 +3031,7 @@
     "title": "Amino acid and mineral digestibility, bone ash, and plasma inositol is increased by including microbial phytase in diets for growing pigs",
     "year": "2023",
     "journal": "Journal of Animal Science and Biotechnology",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2766,6 +3042,7 @@
     "title": "Dietary fibre effects and the interplay with exogenous carbohydrases in poultry nutrition",
     "year": "2024",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "lead",
     "category": "Poultry nutrition"
   },
@@ -2776,6 +3053,7 @@
     "title": "Unveiling the influence of adaptation time on xylanase and arabinoxylan-oligosaccharide efficacy: a study on nutrient digestibility, viscosity, and scanning electron microscopy in the small and large intestine of growing pigs fed insoluble fiber",
     "year": "2024",
     "journal": "Journal of Animal Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2786,6 +3064,7 @@
     "title": "Basis for the diversity and extent in loss of digestible nutrients created by dietary phytin: Emphasis on fowl and swine",
     "year": "2024",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Feed formulation & anti-nutrients"
   },
@@ -2796,8 +3075,9 @@
     "title": "Dietary xylo-oligosaccharides and arabinoxylans improved growth efficiency by reducing gut epithelial cell turnover in broiler chickens",
     "year": "2024",
     "journal": "Journal of Animal Science and Biotechnology",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Poultry nutrition"
+    "category": "Gut health & digestion"
   },
   {
     "id": 281,
@@ -2806,6 +3086,7 @@
     "title": "Characterization of recombinant phytase of Klebsiella sp. and the influence of novel 3-phytase on mineral solubility in broiler diets under an in vitro digestion assay",
     "year": "2024",
     "journal": "Protein Expression and Purification",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2816,6 +3097,7 @@
     "title": "Stimbiotic and wheat bran inclusion in maize or wheat-based diets for broiler chickens; effects on jejunal histomorphology, digesta oligosaccharides and caecal short-chain fatty-acids profiles",
     "year": "2024",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2826,6 +3108,7 @@
     "title": "Interaction of Wheat Bran Particle Size and Stimbiotic Supplementation on Growth Performance and Gut Health Parameters in Broilers",
     "year": "2024",
     "journal": "Animals: an open access journal from MDPI",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2836,6 +3119,7 @@
     "title": "Revealing the physical restrictions of caecal influx in broilers through the use of solid and soluble markers",
     "year": "2025",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2846,6 +3130,7 @@
     "title": "Evaluation of the incremental effect of fasting length on pH, select cecal microbial groups, cecal volatile fatty acid concentrations, and secretory IgA excretion in roosters",
     "year": "2025",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Gut health & digestion"
   },
@@ -2856,8 +3141,9 @@
     "title": "Effects of phytase supplementation on energy and nutrient availability, and phytate degradation in turkeys",
     "year": "2025",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Mineral bioavailability"
+    "category": "Poultry nutrition"
   },
   {
     "id": 287,
@@ -2866,6 +3152,7 @@
     "title": "Prebiotic Xylo-Oligosaccharides Modulate the Gut Microbiome to Improve Innate Immunity and Gut Barrier Function and Enhance Performance in Piglets Experiencing Post-Weaning Diarrhoea",
     "year": "2025",
     "journal": "Microorganisms",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Swine nutrition"
   },
@@ -2876,6 +3163,7 @@
     "title": "Phosphorus-specific, liquid chromatography inductively coupled plasma mass spectrometry for analysis of inositol phosphate and inositol pyrophosphate metabolism",
     "year": "2025",
     "journal": "The Biochemical Journal",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Enzyme mechanism & kinetics"
   },
@@ -2886,6 +3174,7 @@
     "title": "Impact of the particle size of wheat bran inclusions in feed on the precaecal gastrointestinal tract fibre particle size distribution, caecal digesta particle size and caecal fibre fermentation in young and growing broilers",
     "year": "2026",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2896,8 +3185,9 @@
     "title": "Phage treatment significantly reduces Salmonella shedding in layer hens and Salmonella abundance on the surface of the eggs they produce",
     "year": "2026",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
-    "category": "Human health application"
+    "category": "Poultry nutrition"
   },
   {
     "id": 291,
@@ -2906,6 +3196,7 @@
     "title": "Milled and cryogenic micronised wheat bran inclusions stimulate fibre degradation and fermentation differently throughout the broiler's gastrointestinal tract",
     "year": "2026",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2916,6 +3207,7 @@
     "title": "Efficacy of a stimbiotic and wheat bran as an additional fibre source on inflammatory cytokine gene expression and caecal microbiota composition in Eimeria-challenged broilers",
     "year": "2026",
     "journal": "British Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2926,6 +3218,7 @@
     "title": "Extensive particle size reduction of wheat bran increases the broiler's caecal fermentative capacity, but not bran fermentability ex vivo",
     "year": "2026",
     "journal": "Poultry Science",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   },
@@ -2936,6 +3229,7 @@
     "title": "Impact of fraction size on the efficacy of xylo-oligosaccharides in broiler chicken diets",
     "year": "2026",
     "journal": "Animal Nutrition",
+    "itemType": "journalArticle",
     "bedfordRole": "co-author",
     "category": "Poultry nutrition"
   }
