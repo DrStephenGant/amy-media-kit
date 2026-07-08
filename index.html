@@ -3,25 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amy Puzey & Dr. Mike Bedford — Podcast Guest Media Kit</title>
+<title>Amy Puzey &amp; Dr. Mike Bedford — Podcast Guest Media Kit</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Brand font is Runda Normal. Nunito is used as the closest free web fallback.
-     With a Runda webfont license, add an @font-face for Runda and set --font below. -->
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300..900;1,400..700&display=swap" rel="stylesheet">
 <style>
   :root{
-    /* Goodphyte brand palette */
-    --smoke:#f7f5f3;       /* White Smoke – page bg */
-    --surf:#dadfd0;        /* Surf Crest – sage alt bg */
+    --smoke:#f7f5f3;
+    --surf:#dadfd0;
     --surf-dk:#c4cbb3;
-    --dianne:#22565c;      /* Blue Dianne – anchor */
+    --dianne:#22565c;
     --dianne-dk:#1a4248;
-    --orange:#f36f21;      /* Burning Orange – accent/CTA */
+    --orange:#f36f21;
     --orange-soft:#f8915a;
-    --summer:#a5b4b1;      /* Summer Green – muted on dark */
-    --tea:#fac2bc;         /* Tea Rose */
-    --coffee:#746741;      /* Roman Coffee */
+    --summer:#a5b4b1;
+    --tea:#fac2bc;
+    --coffee:#746741;
     --ink:#21302f;
     --line:rgba(33,48,47,0.14);
     --shadow:0 18px 50px -20px rgba(26,66,72,0.4);
@@ -35,12 +32,11 @@
   a{color:inherit}
   .kicker{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;font-weight:800;color:var(--orange)}
 
-  /* four-dot brand motif */
   .dots{display:inline-flex;gap:5px;align-items:center}
   .dots i{width:7px;height:7px;border-radius:50%;display:block}
 
   /* ---------- HERO ---------- */
-  .hero{position:relative;background:radial-gradient(120% 90% at 86% -10%,rgba(243,111,33,0.22),transparent 52%),linear-gradient(165deg,var(--dianne),var(--dianne-dk));color:var(--smoke);padding:34px 0 0;overflow:hidden}
+  .hero{position:relative;background:radial-gradient(120% 90% at 86% -10%,rgba(243,111,33,0.22),transparent 52%),linear-gradient(165deg,var(--dianne),var(--dianne-dk));color:var(--smoke);padding:34px 0 96px;overflow:hidden}
   .hero::after{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,0.05) 1px,transparent 1px);background-size:24px 24px;opacity:.5}
   .nav{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
   .brandmark{font-weight:900;font-size:1.05rem;letter-spacing:.01em;display:flex;align-items:center;gap:10px}
@@ -48,24 +44,17 @@
   .navlinks{display:flex;gap:26px;font-size:.84rem;font-weight:700}
   .navlinks a{opacity:.78;text-decoration:none;transition:opacity .2s}
   .navlinks a:hover{opacity:1}
-  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:end;padding:54px 0 0;position:relative;z-index:2}
+  .hero-copy{position:relative;z-index:2;text-align:center;max-width:820px;margin:0 auto;padding:60px 0 0}
   .hero-copy .kicker{color:var(--orange-soft)}
-  .hero h1{font-size:clamp(3.2rem,8.5vw,6.2rem);margin:16px 0 0;font-weight:900;letter-spacing:-.03em}
-  .pron{font-size:1rem;color:var(--summer);font-weight:600;margin-top:10px;letter-spacing:.02em}
-  .pron b{color:var(--smoke)}
-  .role{font-size:1.02rem;color:var(--summer);margin-top:14px;font-weight:700}
-  .tagline{font-size:1.55rem;line-height:1.35;color:var(--smoke);margin-top:22px;max-width:24ch;font-weight:300}
+  .hero h1{font-size:clamp(2.7rem,7vw,5.4rem);margin:16px 0 0;font-weight:900;letter-spacing:-.03em}
+  .hero h1 .amp{color:var(--orange-soft);font-weight:800}
+  .hero-sub{font-size:1.15rem;color:var(--smoke);margin:20px auto 0;max-width:52ch;font-weight:600}
+  .tagline{font-size:1.5rem;line-height:1.35;color:var(--summer);margin:22px auto 0;max-width:26ch;font-weight:300}
   .tagline b{font-weight:800;color:var(--orange-soft)}
-  .cta-row{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
-  .btn{display:inline-block;padding:13px 28px;border-radius:40px;font-size:.88rem;font-weight:800;letter-spacing:.02em;text-decoration:none;transition:transform .2s,box-shadow .2s}
+  .cta-row{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap;justify-content:center}
+  .btn{display:inline-block;padding:13px 30px;border-radius:40px;font-size:.9rem;font-weight:800;letter-spacing:.02em;text-decoration:none;transition:transform .2s,box-shadow .2s}
   .btn-primary{background:var(--orange);color:#fff}
   .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px -10px rgba(243,111,33,.7)}
-  .btn-ghost{border:1.5px solid rgba(247,245,243,.4);color:var(--smoke)}
-  .btn-ghost:hover{background:rgba(247,245,243,.1)}
-  .hero-portrait{position:relative;aspect-ratio:4/5;border-radius:18px 18px 0 0;overflow:hidden;background:linear-gradient(150deg,var(--summer),var(--dianne-dk));box-shadow:var(--shadow);align-self:end}
-  .hero-portrait img{width:100%;height:100%;object-fit:cover;display:block}
-  .cap{position:absolute;left:0;right:0;bottom:0;padding:14px 18px;background:linear-gradient(transparent,rgba(26,66,72,.85));font-size:.78rem;letter-spacing:.04em;color:var(--smoke);font-weight:600;font-style:italic}
-  .ph-note{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;color:rgba(247,245,243,.55);font-size:.78rem;letter-spacing:.05em;padding:20px}
 
   /* ---------- SECTION SHELL ---------- */
   section{padding:84px 0}
@@ -73,8 +62,49 @@
   .sec-head h2{font-size:clamp(1.9rem,4vw,2.7rem);font-weight:900}
   .sec-num{font-weight:900;font-size:.95rem;color:var(--orange)}
 
-  /* ---------- FEATURED SURFACE + VIDEO FACADE (appearance clips) ---------- */
   .featured{background:var(--surf)}
+
+  /* ---------- GUEST CARDS (Meet the guests) ---------- */
+  .guest-cards{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+  .guest-card{background:var(--dianne);color:var(--smoke);border-radius:20px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+  .guest-card .photo-wrap{aspect-ratio:4/5;border-radius:14px;overflow:hidden;margin-bottom:20px;background:linear-gradient(150deg,var(--summer),var(--dianne-dk))}
+  .guest-card .photo-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+  .g-badge{align-self:flex-start;background:var(--orange);color:#fff;font-size:.66rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;padding:5px 13px;border-radius:30px;margin-bottom:12px}
+  .g-name{font-size:1.55rem;font-weight:900;letter-spacing:-.01em}
+  .g-role{color:var(--orange-soft);font-weight:800;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;margin:5px 0 16px}
+  .factcard h3{font-size:1.05rem;color:var(--orange-soft);margin-bottom:16px;font-weight:800}
+  .fact{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid rgba(247,245,243,.15);font-size:.92rem}
+  .fact:last-child{border-bottom:0}
+  .fact span:first-child{color:var(--summer);font-weight:600}
+  .fact span:last-child{text-align:right;font-weight:700}
+  .pairing-block{background:var(--dianne);color:var(--smoke);border-radius:16px;padding:26px 30px;margin-top:28px;font-size:1.05rem;line-height:1.6;text-align:center}
+  .pairing-block b{color:var(--orange-soft)}
+
+  /* ---------- ABOUT ---------- */
+  .about-block{max-width:78ch;margin:0 auto 46px}
+  .about-block:last-child{margin-bottom:0}
+  .about-name{font-size:1.7rem;font-weight:900;margin-bottom:8px}
+  .about-name .role-tag{display:block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);font-weight:800;margin-bottom:8px;letter-spacing:.14em}
+  .about-block p{font-size:1.08rem;margin-bottom:16px;color:#2c3d3b}
+  .about-block .lead{font-size:1.4rem;font-weight:300;line-height:1.4;color:var(--ink)}
+  .about-block .lead b{font-weight:800}
+
+  /* ---------- TOPICS ---------- */
+  .topics{background:var(--dianne);color:var(--smoke)}
+  .topics .sec-head h2{color:var(--smoke)}
+  .topics .sec-num{color:var(--orange-soft)}
+  .topic-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .topic{border:1px solid rgba(247,245,243,.18);border-radius:14px;padding:22px 26px;transition:background .25s,transform .25s,border-color .25s}
+  .topic:hover{background:rgba(243,111,33,.14);transform:translateY(-3px);border-color:var(--orange)}
+  .t-tag{display:inline-block;font-size:.64rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:3px 11px;border-radius:20px;margin-bottom:11px}
+  .t-amy{background:var(--orange);color:#fff}
+  .t-mike{background:var(--summer);color:var(--dianne-dk)}
+  .t-both{background:var(--orange-soft);color:var(--dianne-dk)}
+  .topic h3{font-size:1.16rem;font-weight:800;margin-bottom:8px}
+  .topic p{font-size:.92rem;color:var(--summer);line-height:1.55}
+
+  /* ---------- CLIPS ---------- */
+  .clip-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
   .video-frame{position:relative;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/9;background:#0c1c1d}
   .yt-facade{position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;margin:0;cursor:pointer;background:#0c1c1d;display:block;overflow:hidden;text-decoration:none}
   .yt-thumb{width:100%;height:100%;object-fit:cover;display:block}
@@ -82,32 +112,6 @@
   .yt-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:76px;height:52px;background:rgba(243,111,33,.94);border-radius:14px;display:flex;align-items:center;justify-content:center;transition:transform .2s,background .2s;box-shadow:0 6px 22px rgba(0,0,0,.4);z-index:2}
   .yt-facade:hover .yt-play{transform:translate(-50%,-50%) scale(1.08);background:var(--orange)}
   .yt-play svg{width:26px;height:26px;fill:#fff;margin-left:3px}
-
-  /* ---------- BIO ---------- */
-  .bio-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:56px}
-  .bio-body p{font-size:1.08rem;margin-bottom:18px;color:#2c3d3b}
-  .bio-body .lead{font-size:1.5rem;font-weight:300;line-height:1.4;color:var(--ink)}
-  .bio-body .lead b{font-weight:800}
-  .factcard{background:var(--dianne);color:var(--smoke);border-radius:18px;padding:30px;align-self:start;box-shadow:var(--shadow)}
-  .factcard h3{font-size:1.05rem;color:var(--orange-soft);margin-bottom:16px;font-weight:800}
-  .fact{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid rgba(247,245,243,.15);font-size:.92rem}
-  .fact:last-child{border-bottom:0}
-  .fact span:first-child{color:var(--summer);font-weight:600}
-  .fact span:last-child{text-align:right;font-weight:700}
-
-  /* ---------- TOPICS ---------- */
-  .topics{background:var(--dianne);color:var(--smoke)}
-  .topics .sec-head h2{color:var(--smoke)}
-  .topics .sec-num{color:var(--orange-soft)}
-  .topic-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-  .topic{border:1px solid rgba(247,245,243,.18);border-radius:14px;padding:24px 26px;transition:background .25s,transform .25s,border-color .25s}
-  .topic:hover{background:rgba(243,111,33,.14);transform:translateY(-3px);border-color:var(--orange)}
-  .topic .t-num{font-weight:900;color:var(--orange-soft);font-size:.9rem}
-  .topic h3{font-size:1.18rem;font-weight:800;margin:8px 0 8px}
-  .topic p{font-size:.92rem;color:var(--summer);line-height:1.55}
-
-  /* ---------- CLIPS ---------- */
-  .clip-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
   .clip .show{font-size:.74rem;color:var(--orange);letter-spacing:.06em;text-transform:uppercase;font-weight:800;margin-bottom:8px}
   .clip h3{font-size:1.02rem;font-weight:800;margin-bottom:13px;line-height:1.25;min-height:2.6em}
   .clip .video-frame{box-shadow:0 12px 36px -18px rgba(26,66,72,.45)}
@@ -120,7 +124,6 @@
   .photo{position:relative;aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:linear-gradient(150deg,var(--tea),var(--coffee));box-shadow:var(--shadow)}
   .photo:nth-child(1){grid-row:span 2;aspect-ratio:3/5}
   .photo img{width:100%;height:100%;object-fit:cover;display:block}
-  .photo .ph-note{color:rgba(247,245,243,.8)}
   .dl-note{margin-top:22px;font-size:.92rem;color:var(--coffee)}
   .dl-note a{color:var(--orange);font-weight:800}
 
@@ -128,7 +131,7 @@
   .booking{background:radial-gradient(120% 100% at 50% 0%,rgba(243,111,33,0.18),transparent 55%),linear-gradient(165deg,var(--dianne),var(--dianne-dk));color:var(--smoke);text-align:center}
   .booking h2{font-size:clamp(2rem,5vw,3.3rem);font-weight:900;margin-bottom:16px}
   .booking h2 b{color:var(--orange-soft)}
-  .booking>.wrap>p{color:var(--summer);max-width:50ch;margin:0 auto 8px;font-size:1.05rem}
+  .booking>.wrap>p{color:var(--summer);max-width:52ch;margin:0 auto 8px;font-size:1.05rem}
   .contact-row{display:flex;gap:46px;justify-content:center;flex-wrap:wrap;margin-top:34px}
   .contact-item .kicker{display:block;margin-bottom:6px;color:var(--summer)}
   .contact-item a,.contact-item span.val{font-size:1.08rem;font-weight:700;text-decoration:none}
@@ -146,20 +149,10 @@
   .hero-copy>*{opacity:0;animation:rise .8s ease forwards}
   .hero-copy .kicker{animation-delay:.05s}
   .hero-copy h1{animation-delay:.16s}
-  .hero-copy .pron{animation-delay:.26s}
-  .hero-copy .role{animation-delay:.34s}
-  .hero-copy .tagline{animation-delay:.44s}
-  .hero-copy .cta-row{animation-delay:.56s}
-  .hero-portrait{opacity:0;animation:rise .9s ease .4s forwards}
+  .hero-copy .hero-sub{animation-delay:.28s}
+  .hero-copy .tagline{animation-delay:.4s}
+  .hero-copy .cta-row{animation-delay:.52s}
   @keyframes rise{to{opacity:1;transform:none}}
-
-  /* ---------- BEDFORD + PAIRING ---------- */
-  .pairing-note{font-size:.9rem;color:var(--summer);margin-top:22px;max-width:34ch;line-height:1.6}
-  .pairing-note a{color:var(--orange-soft);text-decoration:none;border-bottom:1.5px solid var(--orange-soft)}
-  .bedford-photo{width:100%;aspect-ratio:4/5;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:18px}
-  .bedford-photo img{width:100%;height:100%;object-fit:cover;display:block}
-  .pairing-block{background:var(--dianne);color:var(--smoke);border-radius:14px;padding:24px 28px;margin-top:28px;font-size:1rem;line-height:1.65}
-  .pairing-block b{color:var(--orange-soft)}
 
   /* ---------- PUBLICATIONS ---------- */
   .pub-intro{font-size:.95rem;color:var(--coffee);max-width:70ch;margin-bottom:22px;line-height:1.65}
@@ -176,11 +169,9 @@
   .pub-empty{color:var(--coffee);font-size:.9rem;padding:20px 0}
 
   @media(max-width:860px){
-    .hero-grid,.bio-grid{grid-template-columns:1fr;gap:34px}
-    .topic-grid,.clip-grid,.photo-grid{grid-template-columns:1fr}
+    .guest-cards,.topic-grid,.clip-grid,.photo-grid{grid-template-columns:1fr}
     .photo:nth-child(1){grid-row:auto;aspect-ratio:3/4}
     .navlinks{display:none}
-    .hero-portrait{max-width:340px;border-radius:18px;margin-bottom:-1px}
     section{padding:58px 0}
   }
 </style>
@@ -191,58 +182,83 @@
 <header class="hero">
   <div class="wrap">
     <nav class="nav">
-      <div class="brandmark"><span class="dots"><i></i><i></i><i></i><i></i></span> Amy&nbsp;Puzey</div>
+      <div class="brandmark"><span class="dots"><i></i><i></i><i></i><i></i></span> Goodphyte&nbsp;Media&nbsp;Kit</div>
       <div class="navlinks">
-        <a href="#bio">Bio</a>
+        <a href="#guests">Guests</a>
+        <a href="#about">About</a>
         <a href="#topics">Topics</a>
         <a href="#clips">Clips</a>
-        <a href="#bedford">Bedford</a>
+        <a href="#photos">Photos</a>
         <a href="#book">Booking</a>
-        <a href="#publications">Publications</a>
+        <a href="#publications">Research</a>
       </div>
     </nav>
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <span class="kicker">Podcast Guest · Media Kit</span>
-        <h1>Amy Puzey</h1>
-        <div class="pron">Pronounced <b>"Pew-zee"</b></div>
-        <div class="role">Founder &amp; CEO, Goodphyte · Holistic Nutritionist · Researcher</div>
-        <p class="tagline">You are not what you eat. You are what you <b>absorb.</b></p>
-        <div class="cta-row">
-          <a href="#book" class="btn btn-primary">Book Amy</a>
-        </div>
-        <p class="pairing-note">Available paired with <a href="#bedford"><b>Dr. Mike Bedford</b></a>, the peer-reviewed phytase researcher behind the science &mdash; the pairing that unlocks science-heavy shows.</p>
-      </div>
-      <div class="hero-portrait">
-        <img src="images/amy-hero.jpg" alt="Amy Puzey - athletic portrait by Peter Collins Photography">
-        <div class="cap">holistic nutritionist · biotech founder · retired competitive runner</div>
+    <div class="hero-copy">
+      <span class="kicker">Podcast Guests · Media Kit</span>
+      <h1>Amy Puzey <span class="amp">&amp;</span> Dr. Mike Bedford</h1>
+      <p class="hero-sub">The founder who brought phytase to human health, paired with the world's foremost authority on the phytase enzyme.</p>
+      <p class="tagline">You are not what you eat. You are what you <b>absorb.</b></p>
+      <div class="cta-row">
+        <a href="#book" class="btn btn-primary">Book Amy &amp; Mike</a>
       </div>
     </div>
   </div>
 </header>
 
-<!-- ============ BIO ============ -->
-<section id="bio">
+<!-- ============ MEET THE GUESTS ============ -->
+<section class="featured" id="guests">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">01</span><h2>About Amy</h2></div>
-    <div class="bio-grid">
-      <div class="bio-body reveal">
-        <p class="lead">Amy Puzey practices as a holistic nutritionist and researcher, and leads <b>Goodphyte</b> as founder and CEO — the company that brought phytase to human health.</p>
-        <p>She is a holistic nutritionist, biotech founder, competitive mountain trail runner, and mother of four. She has built her career around one of the world's most overlooked health challenges: the hidden nutritional barriers — phytic acid, specifically — that contribute to fatigue, inflammation, autoimmunity, and chronic disease.</p>
-        <p>Amy founded Goodphyte in 2019 to attack the absorption problem dietary phytic acid creates worldwide — what she calls "hidden hunger." Phytase, the enzyme at the center of Goodphyte's formulas, unlocks the iron, zinc, magnesium, and calcium already present in food but blocked from absorption.</p>
-        <p>Amy has a background in Nursing from the University of Alberta and worked as a nutritionist in private practice for nine years.</p>
-        <p>Before her current phytase focus, she led 5 Peaks Adventures for nine years as CEO and National Race Director, Canada's national trail-running event series. She is a retired competitive runner who raced at elite level across disciplines — winning the 2017 Cowtown Marathon women's title (3:01:29, Fort Worth, TX), the Grizzly Ultra solo female title, a podium finish at the Scorched Sole 50K (Kelowna, BC), a former national mountain running championship, and representing Canada at the World Mountain Running Championships.</p>
-      </div>
-      <aside class="factcard reveal">
-        <h3>Quick facts</h3>
+    <div class="sec-head"><h2>Meet the guests</h2></div>
+    <div class="guest-cards">
+      <div class="guest-card factcard reveal">
+        <div class="photo-wrap"><img src="images/amy-hero.jpg" alt="Amy Puzey, founder and CEO of Goodphyte"></div>
+        <span class="g-badge">The Founder</span>
+        <div class="g-name">Amy Puzey</div>
+        <div class="g-role">Founder &amp; CEO, Goodphyte</div>
         <div class="fact"><span>Role</span><span>Founder &amp; CEO</span></div>
         <div class="fact"><span>Company</span><span>Goodphyte (founded 2019)</span></div>
-        <div class="fact"><span>Training</span><span>Nursing background (U. of Alberta)</span></div>
-        <div class="fact"><span>Experience</span><span>Nutritionist, private practice (9 yrs)</span></div>
-        <div class="fact"><span>Athletics</span><span>Retired competitive runner</span></div>
+        <div class="fact"><span>Focus</span><span>Phytase for human health</span></div>
+        <div class="fact"><span>Background</span><span>Nursing, U. of Alberta</span></div>
+        <div class="fact"><span>Athletics</span><span>Ultra &amp; mountain running champion</span></div>
         <div class="fact"><span>Family</span><span>Mother of four</span></div>
         <div class="fact"><span>Timezone</span><span>Mountain Time</span></div>
-      </aside>
+      </div>
+      <div class="guest-card factcard reveal">
+        <div class="photo-wrap"><img src="images/bedford-hero.jpg" alt="Dr. Mike Bedford, foremost authority on the phytase enzyme"></div>
+        <span class="g-badge">The Scientist</span>
+        <div class="g-name">Dr. Mike Bedford</div>
+        <div class="g-role">Foremost authority on phytase</div>
+        <div class="fact"><span>Role</span><span>Phytase researcher</span></div>
+        <div class="fact"><span>Publication record</span><span>294 peer-reviewed papers</span></div>
+        <div class="fact"><span>Experience</span><span>Four decades of research</span></div>
+        <div class="fact"><span>Focus</span><span>Animal &amp; human phytase science</span></div>
+        <div class="fact"><span>Advisory role</span><span>Scientific Advisor, Goodphyte</span></div>
+      </div>
+    </div>
+    <div class="pairing-block reveal">
+      <b>Dr. Bedford provides the peer-reviewed scientific foundation; Amy Puzey provides the entrepreneurial vision and real-world application.</b> Together they tell the complete story — from laboratory evidence to human health — in a single episode.
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h2>About Amy &amp; Mike</h2></div>
+    <div class="about-block reveal">
+      <h3 class="about-name"><span class="role-tag">The Founder</span>Amy Puzey</h3>
+      <p class="lead">Amy Puzey is a researcher and the founder and CEO of <b>Goodphyte</b>, the company that brought phytase to human health. She is the visionary translating decades of phytase science into a way to improve human health.</p>
+      <p>Closing the nutritional gap that phytic acid creates in the standard diet is Amy's life's purpose. Phytic acid, found in the grains, legumes, nuts, and seeds at the base of most of what we eat, binds essential minerals and blocks the body from absorbing them. It is a hidden driver of fatigue, inflammation, autoimmunity, and chronic disease.</p>
+      <p>Amy discovered the solution to closing that gap: phytase, the enzyme that unlocks the iron, zinc, magnesium, and calcium bound up by phytic acid and frees them for absorption. She founded Goodphyte in 2019 to bring that solution to the world. The problem she is solving is known as "hidden hunger" — micronutrient deficiency that persists even when food is abundant.</p>
+      <p>Amy has a background in nursing from the University of Alberta and worked as a nutritionist in private practice for nine years before turning her focus to phytase.</p>
+      <p>She is also an accomplished endurance athlete. Amy has won multiple single-day and multi-day ultra races, won the Canadian Mountain Running Championship, and represented Canada twice at the international level. Before Goodphyte she led 5 Peaks Adventures, Canada's national trail-running series, for nine years as CEO and National Race Director.</p>
+    </div>
+    <div class="about-block reveal">
+      <h3 class="about-name"><span class="role-tag">The Scientist</span>Dr. Mike Bedford</h3>
+      <p class="lead">Dr. Mike Bedford is widely recognized as <b>the world's foremost authority on the phytase enzyme</b> — the peer-reviewed science behind Goodphyte.</p>
+      <p>Over a research career spanning four decades and nearly 300 peer-reviewed papers, Dr. Bedford established much of the mechanistic understanding of how phytic acid (also called phytate) locks up the minerals in plant foods, and how phytase breaks it down to release them. His work drove the commercialization of phytase in animal nutrition and its translation into human health.</p>
+      <p>In 2019 that science crossed into human nutrition when Amy Puzey and Goodphyte became the first to bring phytase to market for human health, drawing directly on the evidence base Dr. Bedford's research helped build. He serves as Goodphyte's scientific advisor.</p>
+      <p>Dr. Bedford is a compelling guest for science-heavy podcasts where peer-reviewed credentials and mechanistic depth matter — from the chemistry of the phytate molecule to superdosing, gut immunity, and why four decades of livestock research translate directly to human mineral nutrition. He appears alongside Amy Puzey as a researcher-and-founder pairing.</p>
     </div>
   </div>
 </section>
@@ -250,17 +266,20 @@
 <!-- ============ TOPICS ============ -->
 <section class="topics" id="topics">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">02</span><h2>What Amy can talk about</h2></div>
+    <div class="sec-head"><span class="sec-num">02</span><h2>What Amy &amp; Mike can talk about</h2></div>
     <div class="topic-grid">
-      <div class="topic reveal"><div class="t-num">A</div><h3>The hidden hunger epidemic</h3><p>Why billions are micronutrient-deficient even when calories are abundant.</p></div>
-      <div class="topic reveal"><div class="t-num">B</div><h3>Eating healthy isn't enough</h3><p>The phytic acid problem in whole foods, and why intake does not equal absorption.</p></div>
-      <div class="topic reveal"><div class="t-num">C</div><h3>Phytase, the missing link</h3><p>What it could change for autoimmunity, MS, and chronic disease.</p></div>
-      <div class="topic reveal"><div class="t-num">D</div><h3>The gut-mineral-immune axis</h3><p>How absorption translates into real autoimmune and metabolic outcomes.</p></div>
-      <div class="topic reveal"><div class="t-num">E</div><h3>Nutritionist to biotech founder</h3><p>Chasing the absorption gap from clinical research to the lab to a biotech company.</p></div>
-      <div class="topic reveal"><div class="t-num">F</div><h3>Iron, fatigue, and recovery</h3><p>What competitive trail and mountain running taught her about minerals.</p></div>
-      <div class="topic reveal"><div class="t-num">G</div><h3>Women's health</h3><p>Why cyclical iron and mineral needs are so often overlooked in mainstream nutrition advice.</p></div>
-      <div class="topic reveal"><div class="t-num">H</div><h3>Exhaustion</h3><p>Why chronic tiredness often traces back to a mineral absorption problem, not just poor sleep.</p></div>
-      <div class="topic reveal"><div class="t-num">I</div><h3>Burnout</h3><p>The mineral deficit that keeps people stuck in it, and what closing the absorption gap changes.</p></div>
+      <div class="topic reveal"><span class="t-tag t-both">Amy &amp; Mike</span><h3>The hidden hunger epidemic</h3><p>Why billions are micronutrient-deficient even when calories are abundant.</p></div>
+      <div class="topic reveal"><span class="t-tag t-both">Amy &amp; Mike</span><h3>Eating healthy isn't enough</h3><p>The phytic acid problem in whole foods, and why intake does not equal absorption.</p></div>
+      <div class="topic reveal"><span class="t-tag t-amy">Amy</span><h3>Phytase, the missing link</h3><p>The enzyme that frees the minerals phytic acid locks away, and what it could change for chronic disease.</p></div>
+      <div class="topic reveal"><span class="t-tag t-amy">Amy</span><h3>From nutritionist to biotech founder</h3><p>Chasing the absorption gap from clinical practice to the lab to a company.</p></div>
+      <div class="topic reveal"><span class="t-tag t-amy">Amy</span><h3>Iron, fatigue &amp; women's health</h3><p>Why cyclical iron and mineral needs are so often overlooked, and what closing the gap changes.</p></div>
+      <div class="topic reveal"><span class="t-tag t-amy">Amy</span><h3>The mineral-immune axis</h3><p>How mineral absorption translates into real autoimmune and metabolic outcomes.</p></div>
+      <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>The phytate molecule, decoded</h3><p>What phytic acid is at the chemical level and why it locks up the minerals in plant foods.</p></div>
+      <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>How phytase unlocks minerals</h3><p>The step-by-step enzymatic mechanism, and why copper is the last mineral freed.</p></div>
+      <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>The pig as a human model</h3><p>Why four decades of livestock research translate directly to human mineral nutrition.</p></div>
+      <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>Superdosing phytase</h3><p>What happens far above standard doses, where mineral release becomes dramatic.</p></div>
+      <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>Phytase &amp; gut immunity</h3><p>How a phytase breakdown product recruits the gut's own defense enzyme against bacterial toxins.</p></div>
+      <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>Why you can't just "eat more phytate"</h3><p>Myth-busting the anti-nutrient-as-superfood claim using absorption biology.</p></div>
     </div>
   </div>
 </section>
@@ -294,7 +313,7 @@
         <div class="show">Cure Your Fatigue · 006</div>
         <h3>Phytate, with Amy Puzey &amp; Dr. Mike Bedford</h3>
         <div class="video-frame">
-          <a class="yt-facade" href="https://www.youtube.com/watch?v=6Vth0zCn1Dg" target="_blank" rel="noopener" aria-label="Watch: Amy Puzey on Cure Your Fatigue with Morley Robbins">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=6Vth0zCn1Dg" target="_blank" rel="noopener" aria-label="Watch: Amy Puzey and Dr. Mike Bedford on Cure Your Fatigue with Morley Robbins">
             <img class="yt-thumb" src="https://i.ytimg.com/vi/6Vth0zCn1Dg/maxresdefault.jpg" alt="" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/6Vth0zCn1Dg/hqdefault.jpg'">
             <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
           </a>
@@ -305,36 +324,10 @@
   </div>
 </section>
 
-<!-- ============ BEDFORD ============ -->
-<section id="bedford">
-  <div class="wrap">
-    <div class="sec-head"><span class="sec-num">04</span><h2>Featuring Dr. Mike Bedford</h2></div>
-    <div class="bio-grid">
-      <div class="bio-body reveal">
-        <p class="lead">Dr. Mike Bedford is widely recognized as <b>the world's leading authority on phytase enzymes</b> &mdash; the peer-reviewed science behind Amy's product.</p>
-        <p>His research career spans decades, from the commercialization of phytase in animal nutrition to its emerging application in human health. His body of peer-reviewed work established the mechanistic understanding of how phytic acid (also called phytate) blocks mineral absorption, and how phytase breaks it down to release those minerals.</p>
-        <p>In 2019, that science crossed into human nutrition when Amy Puzey of Goodphyte became the first person to bring phytase to market for human health, drawing directly on the evidence base Dr. Bedford's research helped establish.</p>
-        <p>Dr. Bedford is available as a guest on science-heavy podcasts where peer-reviewed credentials and mechanistic rigor are required, and can appear alongside Amy Puzey as a researcher-entrepreneur pairing.</p>
-      </div>
-      <aside class="factcard reveal">
-        <div class="bedford-photo"><img src="images/bedford-hero.jpg" alt="Dr. Mike Bedford, phytase researcher"></div>
-        <h3>Quick facts</h3>
-        <div class="fact"><span>Role</span><span>Phytase Researcher</span></div>
-        <div class="fact"><span>Publication record</span><span>294 peer-reviewed papers</span></div>
-        <div class="fact"><span>Focus</span><span>Animal &amp; human phytase science</span></div>
-        <div class="fact"><span>Advisory role</span><span>Scientific Advisor, Goodphyte</span></div>
-      </aside>
-    </div>
-    <div class="pairing-block reveal">
-      <b>Dr. Bedford provides the peer-reviewed scientific foundation; Amy Puzey provides the entrepreneurial application and clinical outcome data.</b> Together they represent the complete story &mdash; from laboratory evidence to real-world human results &mdash; in a single episode.
-    </div>
-  </div>
-</section>
-
 <!-- ============ GALLERY ============ -->
 <section class="gallery" id="photos">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">05</span><h2>Press photos</h2></div>
+    <div class="sec-head"><span class="sec-num">04</span><h2>Press photos</h2></div>
     <div class="photo-grid">
       <div class="photo"><img src="images/amy-1.jpg" alt="Amy Puzey on a trail in Sedona, Arizona"></div>
       <div class="photo"><img src="images/amy-2.jpg" alt="Amy Puzey in the Canadian Rockies"></div>
@@ -350,8 +343,8 @@
 <section class="booking" id="book">
   <div class="wrap">
     <span class="kicker">Booking</span>
-    <h2>Let's get Amy on <b>your</b> show</h2>
-    <p>Available for in-studio, remote video, and audio-only recordings, and happy to tailor the conversation to your audience.</p>
+    <h2>Let's get Amy &amp; Mike on <b>your</b> show</h2>
+    <p>Available together as a researcher-and-founder pairing or individually, for remote video and audio recordings, and happy to tailor the conversation to your audience.</p>
     <div class="contact-row">
       <div class="contact-item">
         <span class="kicker">Booking contact</span>
@@ -380,7 +373,7 @@
 <!-- ============ PUBLICATIONS ============ -->
 <section class="featured" id="publications">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">06</span><h2>Bedford's Research Library</h2></div>
+    <div class="sec-head"><span class="sec-num">05</span><h2>Bedford's Research Library</h2></div>
     <p class="pub-intro">294 peer-reviewed papers spanning four decades of phytase and animal-nutrition science &mdash; 55 as lead author, 239 as part of the research team. Searchable and filterable for producers who want to verify the science behind the story.</p>
     <div class="pub-controls">
       <select id="pubCategory"><option value="">All categories</option></select>
