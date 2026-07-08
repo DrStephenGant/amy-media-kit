@@ -122,9 +122,8 @@
 
   /* ---------- GALLERY ---------- */
   .gallery{background:var(--surf)}
-  .photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;max-width:860px;margin:0 auto}
   .photo{position:relative;aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:linear-gradient(150deg,var(--tea),var(--coffee));box-shadow:var(--shadow)}
-  .photo:nth-child(1){grid-row:span 2;aspect-ratio:3/5}
   .photo img{width:100%;height:100%;object-fit:cover;display:block}
   .dl-note{margin-top:22px;font-size:.92rem;color:var(--coffee)}
   .dl-note a{color:var(--orange);font-weight:800}
@@ -172,7 +171,6 @@
 
   @media(max-width:860px){
     .guest-cards,.topic-grid,.clip-grid,.photo-grid{grid-template-columns:1fr}
-    .photo:nth-child(1){grid-row:auto;aspect-ratio:3/4}
     .navlinks{display:none}
     section{padding:58px 0}
   }
@@ -234,7 +232,7 @@
         <div class="fact"><span>Publication record</span><span>294 peer-reviewed papers</span></div>
         <div class="fact"><span>Experience</span><span>Four decades of research</span></div>
         <div class="fact"><span>Focus</span><span>Animal &amp; human phytase science</span></div>
-        <div class="fact"><span>Advisory role</span><span>Scientific Advisor, Goodphyte</span></div>
+        <div class="fact"><span>Advisory role</span><span>Head of Scientific Advisory Team</span></div>
       </div>
     </div>
     <div class="pairing-block reveal">
@@ -249,9 +247,11 @@
     <div class="sec-head"><span class="sec-num">01</span><h2>About Amy &amp; Mike</h2></div>
     <div class="about-block reveal">
       <h3 class="about-name"><span class="role-tag">The Founder</span>Amy Puzey</h3>
-      <p class="lead">Amy Puzey is a researcher and the founder and CEO of <b>Goodphyte</b>, the company that brought phytase to human health. She is the visionary translating decades of phytase science into a way to improve human health.</p>
+      <p class="lead">Amy Puzey is a researcher and the founder and CEO of <b>Goodphyte</b>, the company that brought phytase to human health. She is the visionary who saw the solution to a problem no one else could see.</p>
+      <p>Her passion and dedication to bringing this knowledge to the world are astounding, and she has been relentless in her pursuit. She has advanced the clinical research and, in the process, transformed lives across the globe.</p>
       <p>Amy's life's purpose is closing the nutritional gap that phytic acid creates in the standard diet. Plants evolved phytic acid to bind essential minerals in seeds so the germinating plants would have everything they needed. Unfortunately, humans don't make much of the phytase needed to break down phytic acid and absorb the minerals and amino acids found in the grains, legumes, nuts, and seeds at the base of much of what we eat. This nutritional gap is a hidden driver of fatigue, inflammation, autoimmunity, and chronic disease.</p>
       <p>Amy discovered the solution to closing that gap: supplementing phytase, the enzyme that unlocks the iron, copper, zinc, magnesium, calcium and amino acids bound up by phytic acid and frees them so people can absorb them. She founded Goodphyte in 2019 to bring that solution to the world. The problem she is solving is known as "hidden hunger" — micronutrient deficiency that persists even when food is abundant.</p>
+      <p>International organizations like the Gates Foundation are now adding phytase to staple foods to address micronutrient deficiency. But Amy was the only one bold enough to commercialize a product at doses high enough, within safety limits, to start seeing real effects, including autoimmune disease remission reported both clinically and anecdotally. Don't believe it? Most people don't, until they read the science and the testimonials. Autoimmune diseases are falling.</p>
       <p>Amy has a background in nursing from the University of Alberta and worked as a nutritionist in private practice for nine years before turning her focus to phytase.</p>
       <p>She is also an accomplished endurance athlete. Amy has won multiple single-day and multi-day ultra races, won the Canadian Mountain Running Championship, and represented Canada twice at the international level. Before Goodphyte she led 5 Peaks Adventures, Canada's national trail-running series, for nine years as CEO and National Race Director.</p>
     </div>
@@ -259,7 +259,7 @@
       <h3 class="about-name"><span class="role-tag">The Scientist</span>Dr. Mike Bedford</h3>
       <p class="lead">Dr. Mike Bedford is widely recognized as <b>the world's foremost authority on the phytase enzyme</b> — the peer-reviewed science behind Goodphyte.</p>
       <p>Over a research career spanning four decades and nearly 300 peer-reviewed papers, Dr. Bedford established much of the mechanistic understanding of how phytic acid (also called phytate) locks up the minerals in plant foods, and how phytase breaks it down to release them. His work drove the commercialization of phytase in animal nutrition and its translation into human health.</p>
-      <p>In 2019 that science crossed into human nutrition when Amy Puzey and Goodphyte became the first to bring phytase to market for human health, drawing directly on the evidence base Dr. Bedford's research helped build. He serves as Goodphyte's scientific advisor.</p>
+      <p>In 2019 that science crossed into human nutrition when Amy Puzey and Goodphyte became the first to bring phytase to market for human health, drawing directly on the evidence base Dr. Bedford's research helped build. He serves as the head of Goodphyte's scientific advisory team.</p>
       <p>Dr. Bedford is a compelling guest for science-heavy podcasts where peer-reviewed credentials and mechanistic depth matter — from the chemistry of the phytate molecule to superdosing, gut immunity, and why four decades of livestock research translate directly to human mineral nutrition. He appears alongside Amy Puzey as a researcher-and-founder pairing.</p>
       <p><a href="#publications" class="btn btn-primary btn-jump">Jump down to his research at the bottom of the page ↓</a></p>
     </div>
@@ -336,7 +336,6 @@
       <div class="photo"><img src="images/amy-2.jpg" alt="Amy Puzey in the Canadian Rockies"></div>
       <div class="photo"><img src="images/amy-3.jpg" alt="Amy Puzey at home"></div>
       <div class="photo"><img src="images/amy-4.jpg" alt="Amy Puzey winning the Cowtown Marathon"></div>
-      <div class="photo"><img src="images/amy-5.png" alt="Amy Puzey headshot"></div>
     </div>
     <p class="dl-note">High-resolution versions (300dpi) available on request, or link a shared folder here: <a href="#">Download all photos</a></p>
   </div>
