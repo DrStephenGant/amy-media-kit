@@ -376,7 +376,7 @@
 <section class="featured" id="publications">
   <div class="wrap">
     <div class="sec-head"><span class="sec-num">05</span><h2>Dr. Bedford's Research Library</h2></div>
-    <p class="pub-intro">294 peer-reviewed papers spanning four decades of phytase and animal-nutrition science &mdash; 55 as lead author, 239 as part of the research team. Searchable and filterable for producers who want to verify the science behind the story.</p>
+    <p class="pub-intro">294 publications and patents spanning four decades of phytase and animal-nutrition science &mdash; 59 as lead author or inventor, 235 as part of the research team. Searchable and filterable for producers who want to verify the science behind the story.</p>
     <div class="pub-controls">
       <select id="pubCategory"><option value="">All categories</option></select>
       <input id="pubSearch" type="text" placeholder="Search by title, journal, or year&hellip;">
@@ -418,7 +418,7 @@
       countEl.textContent = rows.length + ' of ' + pubs.length + ' shown';
       listEl.innerHTML = rows.map(p => `<div class="pub-item">${
         p.link ? `<a href="${escPub(p.link)}" target="_blank" rel="noopener">${escPub(p.citationText)}</a>` : escPub(p.citationText)
-      }<div class="pub-meta"><span class="pub-tag${p.bedfordRole === 'lead' ? ' lead' : ''}">${p.bedfordRole === 'lead' ? 'Lead author' : 'Co-author'}</span><span class="pub-tag">${escPub(p.category)}</span></div></div>`
+      }<div class="pub-meta"><span class="pub-tag${(p.itemType === 'patent' || p.bedfordRole === 'lead') ? ' lead' : ''}">${p.itemType === 'patent' ? 'Patent' : (p.bedfordRole === 'lead' ? 'Lead author' : 'Co-author')}</span><span class="pub-tag">${escPub(p.category)}</span></div></div>`
       ).join('') || '<p class="pub-empty">No matches.</p>';
     }
     fetch('bedford-citations.json')
