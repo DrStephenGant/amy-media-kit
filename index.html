@@ -73,23 +73,15 @@
   .sec-head h2{font-size:clamp(1.9rem,4vw,2.7rem);font-weight:900}
   .sec-num{font-weight:900;font-size:.95rem;color:var(--orange)}
 
-  /* ---------- FEATURED VIDEO ---------- */
+  /* ---------- FEATURED SURFACE + VIDEO FACADE (appearance clips) ---------- */
   .featured{background:var(--surf)}
   .video-frame{position:relative;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/9;background:#0c1c1d}
-  .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
   .yt-facade{position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;margin:0;cursor:pointer;background:#0c1c1d;display:block;overflow:hidden;text-decoration:none}
   .yt-thumb{width:100%;height:100%;object-fit:cover;display:block}
   .yt-facade::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,rgba(0,0,0,.3));pointer-events:none}
   .yt-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:76px;height:52px;background:rgba(243,111,33,.94);border-radius:14px;display:flex;align-items:center;justify-content:center;transition:transform .2s,background .2s;box-shadow:0 6px 22px rgba(0,0,0,.4);z-index:2}
   .yt-facade:hover .yt-play{transform:translate(-50%,-50%) scale(1.08);background:var(--orange)}
   .yt-play svg{width:26px;height:26px;fill:#fff;margin-left:3px}
-  .intro-ph{display:flex;align-items:center;justify-content:center;background:linear-gradient(150deg,var(--dianne),var(--dianne-dk))}
-  .intro-ph .yt-play{position:static;transform:none;margin:0 auto 14px;background:rgba(243,111,33,.55)}
-  .intro-ph-text{font-weight:700;letter-spacing:.04em;font-size:.95rem;color:var(--summer);text-align:center}
-  .featured-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center}
-  .featured-grid .blurb h3{font-size:1.6rem;margin-bottom:14px}
-  .featured-grid .blurb p{color:var(--coffee);font-size:1.02rem}
-  .pill{display:inline-block;background:var(--dianne);color:var(--smoke);font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:30px;margin-bottom:16px}
 
   /* ---------- BIO ---------- */
   .bio-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:56px}
@@ -184,7 +176,7 @@
   .pub-empty{color:var(--coffee);font-size:.9rem;padding:20px 0}
 
   @media(max-width:860px){
-    .hero-grid,.featured-grid,.bio-grid{grid-template-columns:1fr;gap:34px}
+    .hero-grid,.bio-grid{grid-template-columns:1fr;gap:34px}
     .topic-grid,.clip-grid,.photo-grid{grid-template-columns:1fr}
     .photo:nth-child(1){grid-row:auto;aspect-ratio:3/4}
     .navlinks{display:none}
@@ -201,7 +193,6 @@
     <nav class="nav">
       <div class="brandmark"><span class="dots"><i></i><i></i><i></i><i></i></span> Amy&nbsp;Puzey</div>
       <div class="navlinks">
-        <a href="#intro">Intro</a>
         <a href="#bio">Bio</a>
         <a href="#topics">Topics</a>
         <a href="#clips">Clips</a>
@@ -219,7 +210,6 @@
         <p class="tagline">You are not what you eat. You are what you <b>absorb.</b></p>
         <div class="cta-row">
           <a href="#book" class="btn btn-primary">Book Amy</a>
-          <a href="#intro" class="btn btn-ghost">Watch intro</a>
         </div>
         <p class="pairing-note">Available paired with <a href="#bedford"><b>Dr. Mike Bedford</b></a>, the peer-reviewed phytase researcher behind the science &mdash; the pairing that unlocks science-heavy shows.</p>
       </div>
@@ -231,30 +221,10 @@
   </div>
 </header>
 
-<!-- ============ FEATURED INTRO VIDEO ============ -->
-<section class="featured" id="intro">
-  <div class="wrap">
-    <div class="sec-head"><span class="sec-num">01</span><h2>A quick hello</h2></div>
-    <div class="featured-grid">
-      <div class="video-frame reveal" data-id="v26KTZQ4L4Q">
-        <button class="yt-facade" type="button" aria-label="Play: A quick hello from Amy Puzey">
-          <img class="yt-thumb" src="https://i.ytimg.com/vi/v26KTZQ4L4Q/maxresdefault.jpg" alt="" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/v26KTZQ4L4Q/hqdefault.jpg'">
-          <span class="yt-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-        </button>
-      </div>
-      <div class="blurb reveal">
-        <span class="pill">For bookers</span>
-        <h3>Made for your show</h3>
-        <p>A short, direct hello from Amy to you and your booking team: who she is, the one idea she most wants to share with your audience, and why it lands with health-minded listeners.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ============ BIO ============ -->
 <section id="bio">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">02</span><h2>About Amy</h2></div>
+    <div class="sec-head"><span class="sec-num">01</span><h2>About Amy</h2></div>
     <div class="bio-grid">
       <div class="bio-body reveal">
         <p class="lead">Amy Puzey practices as a holistic nutritionist and researcher, and leads <b>Goodphyte</b> as founder and CEO — the company that brought phytase to human health.</p>
@@ -280,7 +250,7 @@
 <!-- ============ TOPICS ============ -->
 <section class="topics" id="topics">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">03</span><h2>What Amy can talk about</h2></div>
+    <div class="sec-head"><span class="sec-num">02</span><h2>What Amy can talk about</h2></div>
     <div class="topic-grid">
       <div class="topic reveal"><div class="t-num">A</div><h3>The hidden hunger epidemic</h3><p>Why billions are micronutrient-deficient even when calories are abundant.</p></div>
       <div class="topic reveal"><div class="t-num">B</div><h3>Eating healthy isn't enough</h3><p>The phytic acid problem in whole foods, and why intake does not equal absorption.</p></div>
@@ -298,7 +268,7 @@
 <!-- ============ CLIPS ============ -->
 <section id="clips">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">04</span><h2>As heard on</h2></div>
+    <div class="sec-head"><span class="sec-num">03</span><h2>As heard on</h2></div>
     <div class="clip-grid">
       <div class="clip reveal">
         <div class="show">MS Hope · EP005</div>
@@ -338,7 +308,7 @@
 <!-- ============ BEDFORD ============ -->
 <section id="bedford">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">05</span><h2>Featuring Dr. Mike Bedford</h2></div>
+    <div class="sec-head"><span class="sec-num">04</span><h2>Featuring Dr. Mike Bedford</h2></div>
     <div class="bio-grid">
       <div class="bio-body reveal">
         <p class="lead">Dr. Mike Bedford is widely recognized as <b>the world's leading authority on phytase enzymes</b> &mdash; the peer-reviewed science behind Amy's product.</p>
@@ -364,7 +334,7 @@
 <!-- ============ GALLERY ============ -->
 <section class="gallery" id="photos">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">06</span><h2>Press photos</h2></div>
+    <div class="sec-head"><span class="sec-num">05</span><h2>Press photos</h2></div>
     <div class="photo-grid">
       <div class="photo"><img src="images/amy-1.jpg" alt="Amy Puzey on a trail in Sedona, Arizona"></div>
       <div class="photo"><img src="images/amy-2.jpg" alt="Amy Puzey in the Canadian Rockies"></div>
@@ -410,7 +380,7 @@
 <!-- ============ PUBLICATIONS ============ -->
 <section class="featured" id="publications">
   <div class="wrap">
-    <div class="sec-head"><span class="sec-num">07</span><h2>Bedford's Research Library</h2></div>
+    <div class="sec-head"><span class="sec-num">06</span><h2>Bedford's Research Library</h2></div>
     <p class="pub-intro">294 peer-reviewed papers spanning four decades of phytase and animal-nutrition science &mdash; 55 as lead author, 239 as part of the research team. Searchable and filterable for producers who want to verify the science behind the story.</p>
     <div class="pub-controls">
       <select id="pubCategory"><option value="">All categories</option></select>
@@ -436,20 +406,6 @@
   // safety net: never leave content hidden if the observer doesn't fire
   window.addEventListener('load', ()=>{
     setTimeout(()=>reveals.forEach(el=>el.classList.add('in')), 1200);
-  });
-
-  // ── INTRO VIDEO (click facade → load embed inline) ──
-  document.querySelectorAll('.video-frame[data-id] .yt-facade').forEach(btn=>{
-    btn.addEventListener('click', ()=>{
-      const frame = btn.closest('.video-frame');
-      const f = document.createElement('iframe');
-      f.src = 'https://www.youtube-nocookie.com/embed/'+frame.getAttribute('data-id')+'?autoplay=1&rel=0&cc_load_policy=0';
-      f.title = 'A quick hello from Amy Puzey';
-      f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-      f.allowFullscreen = true;
-      frame.innerHTML = '';
-      frame.appendChild(f);
-    });
   });
 
   // ── PUBLICATIONS LIBRARY ──────
