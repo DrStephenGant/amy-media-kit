@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amy Puzey &amp; Dr. Mike Bedford — Podcast Guest Media Kit</title>
+<title>Amy Puzey &amp; Dr. Mike Bedford · Podcast Guest Media Kit</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300..900;1,400..700&display=swap" rel="stylesheet">
@@ -80,6 +80,18 @@
   .fact span:last-child{text-align:right;font-weight:700}
   .pairing-block{background:var(--dianne);color:var(--smoke);border-radius:16px;padding:26px 30px;margin-top:28px;font-size:1.05rem;line-height:1.6;text-align:center}
   .pairing-block b{color:var(--orange-soft)}
+
+  /* ---------- WHY NOW ---------- */
+  .whynow{background:var(--smoke);padding:64px 0}
+  .whynow-card{background:#fff;border:1px solid var(--line);border-left:5px solid var(--orange);border-radius:16px;padding:34px 38px;box-shadow:var(--shadow)}
+  .whynow h2{font-size:clamp(1.5rem,3.2vw,2.1rem);font-weight:900;margin:10px 0 14px;max-width:26ch}
+  .whynow p{font-size:1.06rem;line-height:1.6;max-width:74ch;color:#2c3d3b}
+  .wn-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+  .wn-stat{background:var(--smoke);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+  .wn-stat b{display:block;font-size:1.7rem;font-weight:900;color:var(--dianne);line-height:1;margin-bottom:8px}
+  .wn-stat span{display:block;font-size:.88rem;color:#4a5b59;line-height:1.5}
+  .wn-note{font-size:.86rem;color:#5c6d6b;margin-top:20px}
+  .wn-note a{color:var(--dianne);font-weight:700}
 
   /* ---------- ABOUT ---------- */
   .about-block{max-width:78ch;margin:0 auto 46px}
@@ -170,7 +182,8 @@
   .pub-empty{color:var(--coffee);font-size:.9rem;padding:20px 0}
 
   @media(max-width:860px){
-    .guest-cards,.topic-grid,.clip-grid,.photo-grid{grid-template-columns:1fr}
+    .guest-cards,.topic-grid,.clip-grid,.photo-grid,.wn-stats{grid-template-columns:1fr}
+    .whynow-card{padding:26px 22px}
     .navlinks{display:none}
     section{padding:58px 0}
   }
@@ -236,7 +249,24 @@
       </div>
     </div>
     <div class="pairing-block reveal">
-      <b>Dr. Bedford provides the peer-reviewed scientific foundation; Amy Puzey provides the entrepreneurial vision and real-world application.</b> Together they tell the complete story — from laboratory evidence to human health — in a single episode.
+      <b>Dr. Bedford provides the peer-reviewed scientific foundation; Amy Puzey provides the entrepreneurial vision and real-world application.</b> Together they tell the complete story, from laboratory evidence to human health, in a single episode.
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY NOW ============ -->
+<section class="whynow" id="why-now">
+  <div class="wrap">
+    <div class="whynow-card reveal">
+      <span class="kicker">Why now</span>
+      <h2>Phytic acid became a number people can track</h2>
+      <p>In February 2026 Cronometer added phytic acid to the nutrients its app tracks, and built it into a new calcium absorption score that estimates how much calcium you absorb rather than how much you ate. Cronometer brought Amy on to explain it to their users. The absorption gap moved from an invisible mechanism to a metric on a screen.</p>
+      <div class="wn-stats">
+        <div class="wn-stat"><b>Feb 2026</b><span>Cronometer adds phytic acid to its tracked nutrients, alongside oxalate.</span></div>
+        <div class="wn-stat"><b>~60%</b><span>Cronometer's stated reduction in absorption-prediction error once phytic acid and oxalate are counted, compared with intake alone.</span></div>
+        <div class="wn-stat"><b>Episode 40</b><span>Cronometer brings Amy on as the expert voice to explain phytic acid to its audience.</span></div>
+      </div>
+      <p class="wn-note">Figures reported by Cronometer, February 2026. <a href="https://cronometer.com/blog/episode-40-are-you-actually-absorbing-your-nutrients-the-science-of-phytate-with-amy-puzey" target="_blank" rel="noopener">Listen to Amy on Discovering Nutrition with Cronometer &rarr;</a></p>
     </div>
   </div>
 </section>
@@ -250,17 +280,17 @@
       <p class="lead">Amy Puzey is a researcher and the founder and CEO of <b>Goodphyte</b>, the company that brought phytase to human health. She is the visionary who saw the solution to a problem no one else could see.</p>
       <p>Her passion and dedication to bringing this knowledge to the world are astounding, and she has been relentless in her pursuit. She has advanced the clinical research and, in the process, transformed lives across the globe.</p>
       <p>Amy's life's purpose is closing the nutritional gap that phytic acid creates in the standard diet. Plants evolved phytic acid to bind essential minerals in seeds so the germinating plants would have everything they needed. Unfortunately, humans don't make much of the phytase needed to break down phytic acid and absorb the minerals and amino acids found in the grains, legumes, nuts, and seeds at the base of much of what we eat. This nutritional gap is a hidden driver of fatigue, inflammation, autoimmunity, and chronic disease.</p>
-      <p>Amy discovered the solution to closing that gap: supplementing phytase, the enzyme that unlocks the iron, copper, zinc, magnesium, calcium and amino acids bound up by phytic acid and frees them so people can absorb them. She founded Goodphyte in 2019 to bring that solution to the world. The problem she is solving is known as "hidden hunger" — micronutrient deficiency that persists even when food is abundant.</p>
-      <p>International organizations like the Gates Foundation are now adding phytase to staple foods to address micronutrient deficiency. But Amy was the only one bold enough to commercialize a product at doses high enough, within safety limits, to start seeing real effects, including autoimmune disease remission reported both clinically and anecdotally. Don't believe it? Most people don't, until they read the science and the testimonials. Autoimmune diseases are falling.</p>
+      <p>Amy discovered the solution to closing that gap: supplementing phytase, the enzyme that unlocks the iron, copper, zinc, magnesium, calcium and amino acids bound up by phytic acid and frees them so people can absorb them. She founded Goodphyte in 2019 to bring that solution to the world. The problem she is solving is known as "hidden hunger": micronutrient deficiency that persists even when food is abundant.</p>
+      <p>Amy was bold enough to commercialize a product at doses high enough, within safety limits, to start seeing real effects, including autoimmune disease remission reported both clinically and anecdotally. Don't believe it? Most people don't, until they read the science and the testimonials. Autoimmune diseases are falling.</p>
       <p>Amy worked as a nutritionist in private practice for nine years before turning her focus to phytase.</p>
       <p>She is also an accomplished endurance athlete. Amy has won multiple single-day and multi-day ultra races, won the Canadian Mountain Running Championship, and represented Canada twice at the international level. Before Goodphyte she led 5 Peaks Adventures, Canada's national trail-running series, for nine years as CEO and National Race Director.</p>
     </div>
     <div class="about-block reveal">
       <h3 class="about-name"><span class="role-tag">The Scientist</span>Dr. Mike Bedford</h3>
-      <p class="lead">Dr. Mike Bedford is widely recognized as <b>the world's foremost authority on the phytase enzyme</b> — the peer-reviewed science behind Goodphyte.</p>
+      <p class="lead">Dr. Mike Bedford is widely recognized as <b>the world's foremost authority on the phytase enzyme</b>. He is the peer-reviewed science behind Goodphyte.</p>
       <p>Over a research career spanning four decades and nearly 300 peer-reviewed papers, Dr. Bedford established much of the mechanistic understanding of how phytic acid (also called phytate) locks up the minerals in plant foods, and how phytase breaks it down to release them. His work drove the commercialization of phytase in animal nutrition and its translation into human health.</p>
       <p>In 2019 that science crossed into human nutrition when Amy Puzey and Goodphyte became the first to bring phytase to market for human health, drawing directly on the evidence base Dr. Bedford's research helped build. He serves as the head of Goodphyte's scientific advisory team.</p>
-      <p>Dr. Bedford is a compelling guest for science-heavy podcasts where peer-reviewed credentials and mechanistic depth matter — from the chemistry of the phytate molecule to superdosing, gut immunity, and why four decades of livestock research translate directly to human mineral nutrition. He appears alongside Amy Puzey as a researcher-and-founder pairing.</p>
+      <p>Dr. Bedford is a compelling guest for science-heavy podcasts where peer-reviewed credentials and mechanistic depth matter: from the chemistry of the phytate molecule to superdosing, gut immunity, and why four decades of livestock research translate directly to human mineral nutrition. He appears alongside Amy Puzey as a researcher-and-founder pairing.</p>
       <p><a href="#publications" class="btn btn-primary btn-jump">Jump down to his research at the bottom of the page ↓</a></p>
     </div>
   </div>
@@ -271,6 +301,7 @@
   <div class="wrap">
     <div class="sec-head"><span class="sec-num">02</span><h2>What Amy &amp; Mike can talk about</h2></div>
     <div class="topic-grid">
+      <div class="topic reveal"><span class="t-tag t-both">Amy &amp; Mike</span><h3>Phytic acid is now a number you can track</h3><p>Nutrition software started modeling absorption instead of intake alone. What that changes for anyone measuring their own health.</p></div>
       <div class="topic reveal"><span class="t-tag t-both">Amy &amp; Mike</span><h3>The hidden hunger epidemic</h3><p>Why billions are micronutrient-deficient even when calories are abundant.</p></div>
       <div class="topic reveal"><span class="t-tag t-both">Amy &amp; Mike</span><h3>Eating healthy isn't enough</h3><p>The phytic acid problem in whole foods, and why intake does not equal absorption.</p></div>
       <div class="topic reveal"><span class="t-tag t-amy">Amy</span><h3>Phytase, the missing link</h3><p>The enzyme that frees the minerals phytic acid locks away, and what it could change for chronic disease.</p></div>
@@ -283,6 +314,7 @@
       <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>Superdosing phytase</h3><p>What happens far above standard doses, where mineral release becomes dramatic.</p></div>
       <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>Phytase &amp; gut immunity</h3><p>How a phytase breakdown product recruits the gut's own defense enzyme against bacterial toxins.</p></div>
       <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>Why you can't just "eat more phytate"</h3><p>Myth-busting the anti-nutrient-as-superfood claim using absorption biology.</p></div>
+      <div class="topic reveal"><span class="t-tag t-mike">Mike</span><h3>What the absorption models get right</h3><p>New apps estimate mineral absorption using phytic acid as an inhibitor. Where those models hold up, and where the biology is more complicated.</p></div>
     </div>
   </div>
 </section>
